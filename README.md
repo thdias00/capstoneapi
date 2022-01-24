@@ -1,51 +1,64 @@
-# Capstone Api
+# Capstone - API
+Este é o back-end da aplicação cujo objetivo é encontrar e cadastrar receitas que aproveitem ao máximo os ingredientes disponíveis em casa. 
 
-A API possui 4 endpoints, register, login, products e cart
+## Endpoints 
 
-### Cadastro
+A URL base desta API encontra-se em: https://capstone-json.herokuapp.com/
 
-POST /register <br/>
+### Criação de usuário
 
-Para realizar o registro é necessário informar o email e a senha da seguinte maneira:<br/>
-{<br/>
-"email": "exemplo@email.com",<br/>
-"password":"123456"<br/>
-}<br/>
+`POST /users - FORMATO DA REQUISIÇÃO`
 
+```JSON
+{
+	"email": "jondoe@mail.com",
+	"password": "987654321"
+}
+```
+Esperamos a seguinte resposta positiva:
+
+`POST /users - FORMATO DA RESPOSTA - STATUS 201`
+
+```JSON
+{
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvbmRvZUBtYWlsLmNvbSIsImlhdCI6MTY0MzA1NDc0OSwiZXhwIjoxNjQzMDU4MzQ5LCJzdWIiOiIzIn0.00NSDg5P0D7ZhDxVFL4gLn5dXcvCJlUhNFXhNXXESws",
+  "user": {
+    "email": "jondoe@mail.com",
+    "id": 3
+  }
+}
+```
 ### Login
 
-POST /login <br/>
+`POST /login - FORMATO DA REQUISIÇÃO`
 
-A realizção do login deve ser feita de maneira análoga ao de registro, passando as mesmas informações:<br/>
-{<br/>
-"email": "exemplo@email.com",<br/>
-"password":"123456"<br/>
-}<br/>
+```JSON
+{
+	"email": "jondoe@mail.com",
+	"password": "987654321"
+}
+```
+Esperamos a seguinte resposta caso esteja correto:
 
-### Produtos
+`POST /login - FORMATO DA RESPOSTA - 200 OK`
 
--> Carregamento
+```JSON
+{
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvbmRvZUBtYWlsLmNvbSIsImlhdCI6MTY0MzA1NDk2OCwiZXhwIjoxNjQzMDU4NTY4LCJzdWIiOiIzIn0.neNCWA9WR9CZO6E2Y0IzEUQaECfFqaYz03MQHCXKOy8",
+  "user": {
+    "email": "jondoe@mail.com",
+    "id": 3
+  }
+}
+```
+## Criação de receitas
 
-GET /produtos <br/>
+O usuário precisa estar logado para ter acesso, cadastrar, editar e deletar.
 
-É necessário a autorização pelo token para visualização<br/>
+`GET /publications - FORMATO DA REQUISIÇÃO`
 
-### Cart
+`POST /publications - FORMATO DA REQUISIÇÃO`
 
--> Carregamento
+`PATCH /publications/id - FORMATO DA REQUISIÇÃO`
 
-GET /cart <br/>
-
-É necessário autorização para acessar esse recurso<br/>
-
--> Adicionar item ao carrinho
-
-POST /cart <br/>
-
-O cadastro do item ao carrinho requer autorização e deve ser feito passando as informações:<br/>
-{<br/>
-"title": "Hamburguer",<br/>
-"id": 1,<br/>
-"price": 19,90,<br/>
-"url_image": "https://image.com.br"<br/>
-}<br/>
+`DELETE /publications/id - FORMATO DA REQUISIÇÃO`
