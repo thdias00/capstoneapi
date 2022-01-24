@@ -1,4 +1,4 @@
-# hamburgueria api
+# Capstone Api
 
 A API possui 4 endpoints, register, login, products e cart
 
