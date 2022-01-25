@@ -15,35 +15,40 @@
       "titulo": "Tapioca de Peito de Peru",
       "porção": "Individual",
       "modo_de_preparo": "Esquente uma frigideira e espalhe a tapioca o suficiente para cobrir o fundo da frigideira, coloque o peito de peru junto com o queijo, por fim dobre ao meio deixando o suficiente para esquentar o recheio, e pronto. Bora comer!!",
-      "ingredientes": ["Tapioca", "Peito de Peru", "Queijo"]
+      "ingredientes": ["Tapioca", "Peito de Peru", "Queijo"],
+      "imagem": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjcw.com.br%2Fwp-content%2Fuploads%2F2020%2F07%2FIMG_2343-1200x675.jpg&f=1&nofb=1"
     },
     {
       "id": 2,
       "titulo": "Tapioca de Frango com Requeijão Light",
       "porção": "5 pessoas",
       "modo_de_preparo": "Esquente uma frigideira e espalhe a tapioca o suficiente para cobrir o fundo da frigideira, coloque o frango junto com o requeijão, por fim dobre ao meio deixando o suficiente para esquentar o recheio, e pronto. Bora comer!!",
-      "ingredientes": ["Tapioca", "Frango", "Requeijão"]
+      "ingredientes": ["Tapioca", "Frango", "Requeijão"],
+      "imagem": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fguiadaculinaria.com%2Fwp-content%2Fuploads%2F2019%2F09%2Ftapioca-cremosa-de-frango-54845-1024x670.jpg&f=1&nofb=1"
     },
     {
       "id": 3,
       "titulo": "Biscoito Integral",
       "porção": "Individual",
       "modo_de_preparo": "Misture a banana amassada com a quantidade de aveia de sau preferencia, unte uma forma e asse os biscoitos por 15 minutos a 180°",
-      "ingredientes": ["Aveia", "Banana"]
+      "ingredientes": ["Aveia", "Banana"],
+      "imagem": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mundoboaforma.com.br%2Fwp-content%2Fuploads%2F2017%2F11%2Fbiscoito-integral-light-620x330.jpg&f=1&nofb=1"
     },
     {
       "id": 4,
       "titulo": "Smothie",
       "porção": "Individual",
       "modo_de_preparo": "Misture todo os ingredientes e bata no liquidificador até ficar no ponto desejado",
-      "ingredientes": ["Leite", "Gelo", "Cacau", "Banana"]
+      "ingredientes": ["Leite", "Gelo", "Cacau", "Banana"],
+      "imagem": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd1uz88p17r663j.cloudfront.net%2Foriginal%2F0952fe9d63d7c476e34b829394a5ee3e_smoothie-cacau-banana-receitas-nestle.jpg&f=1&nofb=1"
     },
     {
       "id": 5,
       "titulo": "Bolo de Caneca",
       "porção": "Individual",
       "modo_de_preparo": "Misture 3 colheres de farinha de aveia com 1 colher de fermento em pó e 1 colher de iogurte natural junto da banana amassada e um ovo, leve tudo ao microondas por 2 minutos e por fim adicione açucar ou adocante se achar necessário",
-      "ingredientes": ["Aveia", "Banana", "Fermento", "Ovo", "Cacau"]
+      "ingredientes": ["Aveia", "Banana", "Fermento", "Ovo", "Cacau"],
+      "imagem": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclaudia.abril.com.br%2Fwp-content%2Fuploads%2F2020%2F02%2Fbolo-chocolate-caneca.jpg&f=1&nofb=1"
     },
     {
       "id": 6,
@@ -58,14 +63,16 @@
         "Farinha de Trigo",
         "Fermento",
         "Sal"
-      ]
+      ],
+      "imagem": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-CpQLIP8mCeE%2FVkOkPcghApI%2FAAAAAAAASAM%2FRo5GriKqgPI%2Fs1600%2FIMG_4263.JPG&f=1&nofb=1"
     },
     {
       "id": 7,
       "titulo": "Macarrão Alho e Óleo",
       "porção": "2 pessoas",
       "modo_de_preparo": "Leve a água para ferver, quando começar a ferver coloque o sal e a massa. Verifique na embalagem o tempo de cozimento para al dente da massa escolhida, pois cada massa tem um tempo de cozimento. E sempre use 1 l de água para cada 100 g de massa, isto fará com que ela cozinhe por igual e não grude. Aqueça o óleo em uma frigideira grande. Frite o alho em fogo bem baixo até que comece a dourar. Junte a massa já cozida e escorrida, misture bem. Coloque a cebolinha e esta pronto.",
-      "ingredientes": ["Macarrão", "Sal", "Óleo", "Alho", "Cebolinha"]
+      "ingredientes": ["Macarrão", "Sal", "Óleo", "Alho", "Cebolinha"],
+      "imagem": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.itdg.com.br%2Fimages%2Frecipes%2F000%2F057%2F710%2F324571%2F324571_original.jpg&f=1&nofb=1"
     },
     {
       "id": 8,
@@ -76,7 +83,8 @@
         "Farinha de Trigo",
         "Fermento",
         "Sal",
-        "Iogurte Grego Natural"
+        "Iogurte Grego Natural",
+        "imagem": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cuecasnacozinha.com.br%2Fwp-content%2Fuploads%2F2016%2F07%2FMassa-de-Pizza.jpg&f=1&nofb=1"
       ]
     },
     {
@@ -92,7 +100,8 @@
         "Maisena",
         "Amendoim",
         "Cebolinha"
-      ]
+      ],
+      "imagem": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Freceitinhas.s3-sa-east-1.amazonaws.com%2Fwp-content%2Fuploads%2F2016%2F12%2Ffrango-xadrez.jpeg.png&f=1&nofb=1"
     }
   ]
 }
