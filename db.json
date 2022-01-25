@@ -8,5 +8,91 @@
       "id": 1
     }
   ],
-  "publications": []
+  "publications": [],
+  "recipes": [
+    {
+      "id": 1,
+      "titulo": "Tapioca de Peito de Peru",
+      "porção": "Individual",
+      "modo_de_preparo": "Esquente uma frigideira e espalhe a tapioca o suficiente para cobrir o fundo da frigideira, coloque o peito de peru junto com o queijo, por fim dobre ao meio deixando o suficiente para esquentar o recheio, e pronto. Bora comer!!",
+      "ingredientes": ["Tapioca", "Peito de Peru", "Queijo"]
+    },
+    {
+      "id": 2,
+      "titulo": "Tapioca de Frango com Requeijão Light",
+      "porção": "5 pessoas",
+      "modo_de_preparo": "Esquente uma frigideira e espalhe a tapioca o suficiente para cobrir o fundo da frigideira, coloque o frango junto com o requeijão, por fim dobre ao meio deixando o suficiente para esquentar o recheio, e pronto. Bora comer!!",
+      "ingredientes": ["Tapioca", "Frango", "Requeijão"]
+    },
+    {
+      "id": 3,
+      "titulo": "Biscoito Integral",
+      "porção": "Individual",
+      "modo_de_preparo": "Misture a banana amassada com a quantidade de aveia de sau preferencia, unte uma forma e asse os biscoitos por 15 minutos a 180°",
+      "ingredientes": ["Aveia", "Banana"]
+    },
+    {
+      "id": 4,
+      "titulo": "Smothie",
+      "porção": "Individual",
+      "modo_de_preparo": "Misture todo os ingredientes e bata no liquidificador até ficar no ponto desejado",
+      "ingredientes": ["Leite", "Gelo", "Cacau", "Banana"]
+    },
+    {
+      "id": 5,
+      "titulo": "Bolo de Caneca",
+      "porção": "Individual",
+      "modo_de_preparo": "Misture 3 colheres de farinha de aveia com 1 colher de fermento em pó e 1 colher de iogurte natural junto da banana amassada e um ovo, leve tudo ao microondas por 2 minutos e por fim adicione açucar ou adocante se achar necessário",
+      "ingredientes": ["Aveia", "Banana", "Fermento", "Ovo", "Cacau"]
+    },
+    {
+      "id": 6,
+      "titulo": "Bolo de Cenoura",
+      "porção": "12 pessoas",
+      "modo_de_preparo": "Unte uma forma com óleo e povilhe com a farinha de trigo, em uma tigela misture a farinha, o fermento, o sal e reserve, na sequência bata no liquidificador a cenoura adicione o óleo o açucar e os ovos e bata até obter um creme liso, aos poucos adicione os ingredientes secos até ficar uma massa homogênea, passe a masssa para a assadeira e asse por 30 minutos",
+      "ingredientes": [
+        "Cenoura",
+        "Ovo",
+        "Óleo",
+        "Açucar",
+        "Farinha de Trigo",
+        "Fermento",
+        "Sal"
+      ]
+    },
+    {
+      "id": 7,
+      "titulo": "Macarrão Alho e Óleo",
+      "porção": "2 pessoas",
+      "modo_de_preparo": "Leve a água para ferver, quando começar a ferver coloque o sal e a massa. Verifique na embalagem o tempo de cozimento para al dente da massa escolhida, pois cada massa tem um tempo de cozimento. E sempre use 1 l de água para cada 100 g de massa, isto fará com que ela cozinhe por igual e não grude. Aqueça o óleo em uma frigideira grande. Frite o alho em fogo bem baixo até que comece a dourar. Junte a massa já cozida e escorrida, misture bem. Coloque a cebolinha e esta pronto.",
+      "ingredientes": ["Macarrão", "Sal", "Óleo", "Alho", "Cebolinha"]
+    },
+    {
+      "id": 8,
+      "titulo": "Massa de Pizza",
+      "porção": "5 pessoas",
+      "modo_de_preparo": "Misture o iogurte com 1 xícara de farinha numa tigela grande. Misture com a ajuda de um garfo (ou na batedeira) até ficar bem misturado. Lentamente, adicione a farinha restante conforme necessário até atingir a consistência certa. Dependendo do quão espesso for seu iogurte, você talvez precise usar toda a farinha. (Eu usei as 1 e 1/2 xícaras). Transfira a massa para uma bancada enfarinhada e sove bem por 5-8 minutos. A massa deve ficar um pouco grudenta mas não ao ponto de grudar totalmente na sua mão. Abra a massa no formato desejado, recheie e asse em forno preaquecido a 220 graus por 12 a 15 minutos. Vai depender do quão crocante você quer a massa. Retire do forno e transfira a pizza pra uma grelha para ela manter a crocância.",
+      "ingredientes": [
+        "Farinha de Trigo",
+        "Fermento",
+        "Sal",
+        "Iogurte Grego Natural"
+      ]
+    },
+    {
+      "id": 9,
+      "titulo": "Frango Xadrez",
+      "porção": "4 pessoas",
+      "modo_de_preparo": "Pique o frango em cubinhos e tempere com sal, pimenta do reino e suco de 1 limão. Frite o frango até dourar com um fio de azeite e 1 colher (sopa) de Óleo de Gergelim. Junte os pimentões e misture bem. Adicione o molho Shoyu o restante do óleo de gergelim e 1 colher (sopa) de Maisena diluida em ½ xícara (chá) de Água. Misture até engrossar, finalize com amendoim torrado s/ sal, cebolinha e um pouco de gergelim",
+      "ingredientes": [
+        "Frango",
+        "Pimentão",
+        "Shoyu",
+        "Óleo",
+        "Maisena",
+        "Amendoim",
+        "Cebolinha"
+      ]
+    }
+  ]
 }
