@@ -10,12 +10,12 @@
   ],
   "publications": [
     {
-          userId: 1,
-          icon: "",
-          username: "",
-          photo: "",
-          category: "",
-          description: "",
+        "userId": 1,
+        "icon": "",
+        "username": "",
+        "photo": "",
+        "category": "",
+        "description": "",
     }
   ],
   "recipes": [
