@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "email": "kenzinho@email.com",
+      "email": "kenzinho@mail.com",
       "password": "123456",
       "name": "Kenzinho",
       "age": 38,
@@ -12,96 +12,765 @@
   "recipes": [
     {
       "id": 1,
-      "titulo": "Tapioca de Peito de Peru",
-      "porcao": "Individual",
-      "modo_de_preparo": "Esquente uma frigideira e espalhe a tapioca o suficiente para cobrir o fundo da frigideira, coloque o peito de peru junto com o queijo, por fim dobre ao meio deixando o suficiente para esquentar o recheio, e pronto. Bora comer!!",
-      "ingredientes": ["Tapioca", "Peito de Peru", "Queijo"],
-      "imagem": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjcw.com.br%2Fwp-content%2Fuploads%2F2020%2F07%2FIMG_2343-1200x675.jpg&f=1&nofb=1"
+      "title": "Arroz Doce Cremoso",
+      "serves": 5,
+      "method": "Numa panela, misture todos os ingredientes - com exceção do leite condensado. Leve em fogo baixo e mexa de vez em quando, cuidando para o arroz não grudar no fundo da panela. Deixe cozinhar por aproximadamente 20 minutos. Junte o leite condensado e deixe cozinhar por mais 5 minutos. Polvilhe com canela em pó para servir",
+      "time": 35,
+      "type": "",
+      "ingredients": [
+        " 1 xícara de arroz",
+        " 3 xícaras de leite",
+        " 1 vidro de leite de coco (200 ml)",
+        " 1 xícara de água",
+        " 1 lata de leite condensado",
+        " 1 canela em pau",
+        " 6 cravos",
+        " 1 pitada de sal",
+        " canela em pó a gosto"
+      ],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy-c4j452_KoxuQUR5lSrGhXsdZYQ0YH6DAA&usqp=CAU"
     },
+
     {
       "id": 2,
-      "titulo": "Tapioca de Frango com Requeijão Light",
-      "porcao": "5 pessoas",
-      "modo_de_preparo": "Esquente uma frigideira e espalhe a tapioca o suficiente para cobrir o fundo da frigideira, coloque o frango junto com o requeijão, por fim dobre ao meio deixando o suficiente para esquentar o recheio, e pronto. Bora comer!!",
-      "ingredientes": ["Tapioca", "Frango", "Requeijão"],
-      "imagem": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fguiadaculinaria.com%2Fwp-content%2Fuploads%2F2019%2F09%2Ftapioca-cremosa-de-frango-54845-1024x670.jpg&f=1&nofb=1"
+      "title": "Macarrão cremoso de panela de pressão",
+      "serves": 5,
+      "method": "Coloque a água, o molho de tomate, o caldo de legumes e o presunto na panela de pressão. Aguarde ferver, acrescente o macarrão e tampe a panela. Assim que pegar pressão desligue o fogo e aguarde sair a pressão completamente. Abra e acrescente a mussarela e o queijo cremoso misture bem e sirva quente.",
+      "time": 15,
+      "type": "",
+      "ingredients": [
+        "500 g macarrão tipo penne",
+        "1 lata de molho de tomate pronto",
+        "2 medidas da lata de água",
+        "200 g de presunto picado",
+        "200 g de queijo mussarela picado",
+        "250 g de queijo cremoso",
+        "2 cubos de caldo de legumes"
+      ],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYVCbei_rdJQHA63USvhvIwZp8I2tEl6nhGw&usqp=CAU"
     },
     {
       "id": 3,
-      "titulo": "Biscoito Integral",
-      "porcao": "Individual",
-      "modo_de_preparo": "Misture a banana amassada com a quantidade de aveia de sau preferencia, unte uma forma e asse os biscoitos por 15 minutos a 180°",
-      "ingredientes": ["Aveia", "Banana"],
-      "imagem": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mundoboaforma.com.br%2Fwp-content%2Fuploads%2F2017%2F11%2Fbiscoito-integral-light-620x330.jpg&f=1&nofb=1"
+      "title": "Arroz ao Forno",
+      "serves": 6,
+      "method": "Em uma forma retangular grande, coloque todos ingredientes, mais a água e leve ao forno por 40 minutos até secar e cozinhar o arroz. Cozinhe o frango com sal, caldo de galinha, purê de tomate",
+      "time": 30,
+      "type": "",
+      "ingredients": [
+        "3 xícaras de arroz lavado",
+        "1 xícara de ervilha fresca",
+        "1 xícara de milho verde",
+        "1 xícara de molho de tomate",
+        "1/2 xícara azeitona picada",
+        "1/2 xícara tomate picado",
+        "1/2 kilo de peito de frango cozido e desfiado",
+        "6 xícaras de água que usou para cozinhar o frango",
+        "1 caldo de galinha",
+        "sal"
+      ],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0z7Deep8yqQOLnTsWxfLHeFdKmJ62qCDzaUyY6Renerx47xFnyhJzB6vSFpY12kN7DkE&usqp=CAU"
     },
     {
       "id": 4,
-      "titulo": "Smothie",
-      "porcao": "Individual",
-      "modo_de_preparo": "Misture todo os ingredientes e bata no liquidificador até ficar no ponto desejado",
-      "ingredientes": ["Leite", "Gelo", "Cacau", "Banana"],
-      "imagem": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd1uz88p17r663j.cloudfront.net%2Foriginal%2F0952fe9d63d7c476e34b829394a5ee3e_smoothie-cacau-banana-receitas-nestle.jpg&f=1&nofb=1"
+      "title": "Arroz a carreteiro",
+      "serves": 4,
+      "method": "Cozinhe a carne seca em panela de pressão, retire, espera esfriar e desfie. Retire a pele da calabresa e corte em cubos juntamente com o bacon. Corte o tomate em cubos pequenos sem as sementes bem como a cebola. Refogue o bacon e a calabresa até ficar bem dourada, acrescentando depois a cebola, tomate, pimenta calabresa e a carne desfiada.Após acrescente o arroz, afogue bem, adicione a água corrigindo o sal se necessário e abaixe o fogo aguardando secar. Quando pronto, colocar a salsa em cima.",
+      "time": 60,
+      "type": "",
+      "ingredients": [
+        " 3 copos de arroz",
+        "500 g de carne seca",
+        "200 g de bacon fatiado",
+        "200 g de calabresa",
+        "1 tomate grande bem maduro",
+        "1 cebola grande",
+        "Pimenta calabresa",
+        "Salsa",
+        "Sal"
+      ],
+      "image": "https://t2.rg.ltmcdn.com/pt/posts/8/9/1/arroz_carreteiro_198_600.jpg"
     },
     {
       "id": 5,
-      "titulo": "Bolo de Caneca",
-      "porcao": "Individual",
-      "modo_de_preparo": "Misture 3 colheres de farinha de aveia com 1 colher de fermento em pó e 1 colher de iogurte natural junto da banana amassada e um ovo, leve tudo ao microondas por 2 minutos e por fim adicione açucar ou adocante se achar necessário",
-      "ingredientes": ["Aveia", "Banana", "Fermento", "Ovo", "Cacau"],
-      "imagem": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclaudia.abril.com.br%2Fwp-content%2Fuploads%2F2020%2F02%2Fbolo-chocolate-caneca.jpg&f=1&nofb=1"
+      "title": "Macarrão alho e óleo",
+      "serves": 2,
+      "method": "Leve a água para ferver, quando começar a ferver coloque o sal e a massa. Verifique na embalagem o tempo de cozimento para al dente da massa escolhida, pois cada massa tem um tempo de cozimento. E sempre use 1 l de água para cada 100 g de massa, isto fará com que ela cozinhe por igual e não grude. Aqueça o óleo em uma frigideira grande. Frite o alho em fogo bem baixo até que comece a dourar. Junte a massa já cozida e escorrida, misture bem. Coloque a cebolinha e esta pronto",
+      "time": 20,
+      "type": "",
+      "ingredients": [
+        "200 g de macarrão",
+        "2 l de água ou caldo de legumes",
+        "1 colher de sobremesa rasa de sal",
+        "1/2 xícara de óleo de girassol ou canola, ou azeite",
+        "6 dentes de alho bem picados",
+        "1/2 xícara de cebolinha ou salsinha picadas"
+      ],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHxBMlIPifFe3Xj_FfskeaWlFnEMkSQPu2xA&usqp=CAU"
     },
     {
       "id": 6,
-      "titulo": "Bolo de Cenoura",
-      "porcao": "12 pessoas",
-      "modo_de_preparo": "Unte uma forma com óleo e povilhe com a farinha de trigo, em uma tigela misture a farinha, o fermento, o sal e reserve, na sequência bata no liquidificador a cenoura adicione o óleo o açucar e os ovos e bata até obter um creme liso, aos poucos adicione os ingredientes secos até ficar uma massa homogênea, passe a masssa para a assadeira e asse por 30 minutos",
-      "ingredientes": [
-        "Cenoura",
-        "Ovo",
-        "Óleo",
-        "Açucar",
-        "Farinha de Trigo",
-        "Fermento",
-        "Sal"
+      "title": "Frango Xadrez",
+      "serves": 3,
+      "method": "Pique o frango em cubinhos e tempere com sal, pimenta do reino e suco de 1 limão. Frite o frango até dourar com um fio de azeite e 1 colher (sopa) de Óleo de Gergelim. Junte os pimentões e misture bem. Adicione o molho Shoyu o restante do óleo de gergelim e 1 colher (sopa) de Maisena diluida em ½ xícara (chá) de Água. Misture até engrossar, finalize com amendoim torrado s/ sal, cebolinha e um pouco de gergelim",
+      "time": 45,
+      "type": "",
+      "ingredients": [
+        "500g de Peito Frango",
+        "1/2 Pimentão Vermelho",
+        "1/2 Pimentão Verde",
+        "1/2 Pimentão Amarelo",
+        "3 Colheres (sopa) de Molho Shoyu",
+        "3 Colheres (sopa) de Óleo de Gergelim",
+        "1 Colher (sopa) de Maisena",
+        "½ Xícara (chá) de Água",
+        "25g de Amendoim",
+        "Cebolinha (a gosto)"
       ],
-      "imagem": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-CpQLIP8mCeE%2FVkOkPcghApI%2FAAAAAAAASAM%2FRo5GriKqgPI%2Fs1600%2FIMG_4263.JPG&f=1&nofb=1"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8DHta7E6kRQdgiPXWBnyPeTefsUYjOm98xA&usqp=CAU"
     },
     {
       "id": 7,
-      "titulo": "Macarrão Alho e Óleo",
-      "porcao": "2 pessoas",
-      "modo_de_preparo": "Leve a água para ferver, quando começar a ferver coloque o sal e a massa. Verifique na embalagem o tempo de cozimento para al dente da massa escolhida, pois cada massa tem um tempo de cozimento. E sempre use 1 l de água para cada 100 g de massa, isto fará com que ela cozinhe por igual e não grude. Aqueça o óleo em uma frigideira grande. Frite o alho em fogo bem baixo até que comece a dourar. Junte a massa já cozida e escorrida, misture bem. Coloque a cebolinha e esta pronto.",
-      "ingredientes": ["Macarrão", "Sal", "Óleo", "Alho", "Cebolinha"],
-      "imagem": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.itdg.com.br%2Fimages%2Frecipes%2F000%2F057%2F710%2F324571%2F324571_original.jpg&f=1&nofb=1"
+      "title": "Strogonoff de Frango",
+      "serves": 3,
+      "method": "Aqueça a panela, adicione cerca de 1 colher (sopa) de azeite / óleo e frite, junte os cubos de frango, tempere com sal e pimenta do reino e deixe fritar até que fiquem levemente dourados. Adicione o champignon, 1 dente de alho picado (opcional), misture bem, junte o catchup, mostarda e misture bem para envolver todo o frango. Dilua a maisena no leite (frio) e adicione na panela misturando bem em fogo baixo até que fique o molho fique bem cremoso. Adicione o creme de leite e misture bem (tome cuidado para não ferver), assim que estiver tudo bem misturado desligue o fogo e sirva.",
+      "time": 45,
+      "type": "",
+      "ingredients": [
+        "500g Peito de Frango (em cubos)",
+        "1/2 Xícara (chá) de Creme de Leite",
+        "1/2 Xícara (chá) de Leite",
+        "1 Colher (sopa) de Maisena",
+        "1 Xícara (chá) de Champignon",
+        "10 Colheres (sopa) de Catchup",
+        "1 Colher (sopa) de Mostarda",
+        "Sal e Pimenta do Reino (a gosto)",
+        "1 Dente de Alho (opcional)"
+      ],
+      "image": "https://assets.unileversolutions.com/recipes-v2/54226.jpg"
     },
     {
       "id": 8,
-      "titulo": "Massa de Pizza",
-      "porcao": "5 pessoas",
-      "modo_de_preparo": "Misture o iogurte com 1 xícara de farinha numa tigela grande. Misture com a ajuda de um garfo (ou na batedeira) até ficar bem misturado. Lentamente, adicione a farinha restante conforme necessário até atingir a consistência certa. Dependendo do quão espesso for seu iogurte, você talvez precise usar toda a farinha. (Eu usei as 1 e 1/2 xícaras). Transfira a massa para uma bancada enfarinhada e sove bem por 5-8 minutos. A massa deve ficar um pouco grudenta mas não ao ponto de grudar totalmente na sua mão. Abra a massa no formato desejado, recheie e asse em forno preaquecido a 220 graus por 12 a 15 minutos. Vai depender do quão crocante você quer a massa. Retire do forno e transfira a pizza pra uma grelha para ela manter a crocância.",
-      "ingredientes": [
-        "Farinha de Trigo",
-        "Fermento",
-        "Sal",
-        "Iogurte Grego Natural"
+      "title": "Salada de Batata",
+      "serves": 3,
+      "method": "Descasque, pique em cubos 2 batatas médias e leve para cozinhar em água salgada até que fiquem macias e reserve. Em uma tigela adicione 2 colheres (sopa) de maionese, 1 colher (sopa) de creme de leite, 1 colher (sopa) de suco de limão e salsinha á gosto. Misture bem junte as batatas cozidas, tempere com pimenta do reino e corrija o sal. Misture muito bem e leve para gelar e aproveite.",
+      "time": 35,
+      "type": "fit",
+      "ingredients": [
+        "2 Batatas (médias)",
+        "2 Colheres (sopa) de Maionese",
+        "1 Colher (sopa) Creme de Leite",
+        "1 Colher (sopa) de Suco de Limão",
+        "Salsinha à gosto",
+        "Pimenta",
+        "Sal"
       ],
-      "imagem": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cuecasnacozinha.com.br%2Fwp-content%2Fuploads%2F2016%2F07%2FMassa-de-Pizza.jpg&f=1&nofb=1"
+      "image": "https://delicitas.com.br/wp-content/uploads/2013/08/receita-de-salada-de-batata-bolinha-com-bacon.jpg"
     },
     {
       "id": 9,
-      "titulo": "Frango Xadrez",
-      "porcao": "4 pessoas",
-      "modo_de_preparo": "Pique o frango em cubinhos e tempere com sal, pimenta do reino e suco de 1 limão. Frite o frango até dourar com um fio de azeite e 1 colher (sopa) de Óleo de Gergelim. Junte os pimentões e misture bem. Adicione o molho Shoyu o restante do óleo de gergelim e 1 colher (sopa) de Maisena diluida em ½ xícara (chá) de Água. Misture até engrossar, finalize com amendoim torrado s/ sal, cebolinha e um pouco de gergelim",
-      "ingredientes": [
-        "Frango",
-        "Pimentão",
-        "Shoyu",
-        "Óleo",
-        "Maisena",
-        "Amendoim",
-        "Cebolinha"
+      "title": "Salsa Refrescante",
+      "serves": 8,
+      "method": "Em um recipiente, misture bem todos os ingredientes, cubra com plástico-filme e deixe tomar gosto, em geladeira, por cerca de 30 minutos.",
+      "time": 25,
+      "type": "fit",
+      "ingredients": [
+        "2 batatas-doces pequenas cozidas, em cubos pequenos",
+        "1/2 xícara (chá) de salsão picado",
+        "1/2 xícara (chá) de cenoura em cubos pequenos",
+        "1/2 xícara (chá) de cebola roxa picada",
+        "4 colheres (sopa) de coentro picado",
+        "suco de 1 limão",
+        "3 colheres (sopa) de azeite",
+        "2 envelopes de MAGGI® Tempero e Sabor Legumes",
+        "5 gotas de molho de pimenta tipo tabasco"
       ],
-      "imagem": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Freceitinhas.s3-sa-east-1.amazonaws.com%2Fwp-content%2Fuploads%2F2016%2F12%2Ffrango-xadrez.jpeg.png&f=1&nofb=1"
+      "image": "https://images.aws.nestle.recipes/resized/e4f1aa49fde6c4b2ceec000c65138009_salsa-refrescante-receitas-nestle_768_384.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Pão de Queijo",
+      "serves": 99,
+      "method": "Em uma panela, ferva o Leite com o MAGGI Fondor e o óleo. Em um recipiente, coloque o polvilho e escalde-o, com o auxílio de colher de cabo longo, com a mistura fervente. Acrescente os ovos, alternando com o queijo e sovando bem após cada adição. Unte as mãos com óleo e enrole bolinhas de 2 cm de diâmetro. Coloque-as em uma assadeira untada com óleo. Asse em forno médio (180º C), preaquecido, por cerca de 30 minutos. Sirva",
+      "time": 60,
+      "type": "",
+      "ingredients": [
+        "1 e meia xícara (chá) de Leite",
+        "1 colher (sopa) de MAGGI® Fondor",
+        "meia xícara (chá) de óleo",
+        "500 g de polvilho doce",
+        "2 ovos ligeiramente batidos",
+        "3 xícaras (chá) de queijo meia cura ralado"
+      ],
+      "image": "https://moinhoglobo.com.br/wp-content/uploads/2016/03/44-p%C3%A3o-de-queijo.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Cookies de Chocolate",
+      "serves": 90,
+      "method": "Em uma batedeira, bata ligeiramente a manteiga e, mantendo-a ligada, acrescente aos poucos as gemas e o Leite MOÇA em fio, até obter um creme bem leve e esbranquiçado (aproximadamente 20 minutos batendo em velocidade média). Bata as claras em neve e incorpore-as à massa.Unte com manteiga duas assadeiras grandes e coloque nelas pequenas porções de massa, mantendo uma distância aproximada de 8 cm entre cada porção. Decore cada cookie com um pedacinho de Chocolate NESTLÉ CLASSIC e leve ao forno médio (180°C), preaquecido, por cerca de 30 minutos.",
+      "time": 60,
+      "type": "",
+      "ingredients": [
+        "200 g de manteiga em temperatura ambiente",
+        "2 ovos",
+        "1 Leite condensado (lata ou caixinha) 395g",
+        "2 e meia xícaras (chá) de farinha de trigo",
+        "100 g de Chocolate CLASSIC Meio Amargo",
+        "1 pitada de sal",
+        "1 pitada de bicarbonato de sódio",
+        "100 g de Chocolate Meio Amargo cortado em quadrados pequenos"
+      ],
+      "image": "https://images.aws.nestle.recipes/resized/9d55f5cb5d50ceb849c91dae9e10125d_cookies-chocolate-receitas-nestle_768_384.jpg"
+    },
+    {
+      "id": 12,
+      "title": "Creme de Milho",
+      "serves": 3,
+      "method": "No liquidificador, coloque o conteúdo inteiro de 1 lata de milho, o leite, e bata até formar um creme liso. Refogar a cebola e alho no óleo.Despejar o milho escorrido da outra lata, sal, pimenta do reino, páprica e cozinhar por 2 minutos. Juntar o creme de milho batido e cozinhar até engrossar. Juntar a salsinha picada.",
+      "time": 20,
+      "type": "",
+      "ingredients": [
+        " 2 de latas de milho verde",
+        "2 xíc de leite",
+        "2 cl sopa de manteiga",
+        "1/2 cebola picada",
+        "1 dente de alho picado",
+        "1 cl sopa de salsinha picada",
+        "sal e pimenta do reino a gosto"
+      ],
+      "image": "https://s2.glbimg.com/OgeSW_Q4SdggTR-0LEPyVuYyp9U=/0x0:1280x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2021/A/d/XSXARxSiOBeUrZEIzU0w/creme-de-milho-receita.jpg"
+    },
+    {
+      "id": 13,
+      "title": "Brigadeiro",
+      "serves": 2,
+      "method": "Em uma panela, coloque o Leite MOÇA com o Chocolate em Pó e a manteiga. Misture bem e leve ao fogo baixo, mexendo sempre até desprender do fundo da panela (cerca de 10 minutos). Retire do fogo, passe para um prato untado com manteiga e deixe esfriar. Com as mãos untadas, enrole em bolinhas e passe-as no granulado. Sirva em forminhas de papel.",
+      "time": 25,
+      "type": "",
+      "ingredients": [
+        "1 Leite condensado (lata ou caixinha)",
+        "3 colheres (sopa) de Chocolate em pó ",
+        "1 colher (sopa) de manteiga",
+        "1 xícara (chá) de chocolate granulado"
+      ],
+      "image": "https://images.aws.nestle.recipes/resized/3eb2579cdb04726a58431318ac293569_brigadeiro-receitas-nestle_1200_600.jpg"
+    },
+    {
+      "id": 14,
+      "title": "Biscoitinhos de Queijo",
+      "serves": 15,
+      "method": "Em um recipiente, misture todos os ingredientes. Coloque eles em uma forma, bem espalhados e bem misturados. Leve ao forno por 10 minutos a 180° C. Retire a massa que se formou, com cuidado. Coloque em cima de uma tábua e corte a gosto",
+      "time": 15,
+      "type": "",
+      "ingredients": [
+        "150 g de parmesão ralado",
+        "150 g de farinha de amêndoa",
+        "1 colher (chá) de tomilho"
+      ],
+      "image": "https://img.itdg.com.br/tdg/images/recipes/000/314/272/358398/358398_original.jpg?mode=crop&width=710&height=400"
+    },
+    {
+      "id": 15,
+      "title": "Pãozinho da quarentena",
+      "serves": 0,
+      "method": "Primeiramente, em uma tigela coloque a água e o fermento, misture e deixe descansar por 10 minutos. Logo depois, acrescente os demais ingredientes e comece a misturar, depois que a massa firmar sove por uns 10 minutos com as mãos até ficar macia e lisa. Logo após, modele o pão e coloque sobre uma forma já untada com manteiga e farinha, deixe descansar novamente por mais 30 minutos.Por fim, leve ao forno pré-aquecido a 180 graus por cerca de 40 minutos ou até ficar douradinho por cima, aguarde esfriar e sirva em seguida.",
+      "time": 40,
+      "type": "",
+      "ingredients": [
+        " 2 e meia xícaras de farinha de trigo",
+        "1 copo americano de água morna",
+        "2 colheres sopa de açúcar",
+        "Um ovo inteiro",
+        "2 colheres de sopa rasa de manteiga",
+        "1 colher sopa de fermento biológico seco para pães",
+        "Uma colher de café de sal"
+      ],
+      "image": "https://tudodereceitas.com.br/wp-content/uploads/2022/01/Paozinho-da-quarentena.jpg"
+    },
+    {
+      "id": 16,
+      "title": "Mousse de Limão",
+      "serves": 10,
+      "method": "Coloque no liquidificador o creme de leite (com soro mesmo) e o leite condensado. Bata um pouco e depois vá acrescentando o suco do limão, aos poucos. Ele vai ficar bem consistente, leve à geladeira.",
+      "time": 10,
+      "type": "",
+      "ingredients": [
+        " 1 lata de leite condensado",
+        "1 lata de creme de leite",
+        "1/2 xícara de suco de limão"
+      ],
+      "image": "https://www.radioaltouruguai.com.br/wp-content/uploads/2020/06/img_mousse_de_limao_com_suco_tang_4510_orig.jpg"
+    },
+    {
+      "id": 17,
+      "title": "Carne moída com abóbora",
+      "serves": 5,
+      "method": "Refogue a carne e a cebola, sem usar óleo. Acrescente o tomate. Junte a abóbora, a água e o molho de tomate, Tampe a panela e  deixe por cerca de 15 minutos ou até a abóbora estar macia. Se necessário, coloque mais um pouco de água para não grudar na panela.",
+      "time": 50,
+      "type": "",
+      "ingredients": [
+        "300g de carne moída magra",
+        "1 canela em pau",
+        "700g de abóbora cortada em cubos (eu gosto da cabótia ou japonesa)",
+        "1 cebola picada",
+        "1 tomate picado",
+        "salsinha a gosto",
+        "½ copo de água",
+        "½ xícara de molho de tomate",
+        "sal e pimenta do reino"
+      ],
+      "image": "https://blogdamimis.com.br/wp-content/uploads/2012/09/captura-de-tela-2012-09-18-c3a0s-19-04-55.png"
+    },
+    {
+      "id": 18,
+      "title": "Pão de queijo de frigideira",
+      "serves": 3,
+      "method": "Bata os ovos, o sal, o polvilho, o iogurte e a água no mixer ou liquidificador.Coloque 1/3 da massa na frigideira antiaderente pré aquecida e cozinhe em fogo baixo.Quando despregar da panela, vire e espere dourar do outro lado.Coloque a muçarela e faça um rolinho.Com o calor da massa o queijo irá derreter. Faça as outras porções com o resto da massa.",
+      "time": 30,
+      "type": "",
+      "ingredients": [
+        "1 ovo",
+        "1 clara",
+        "2 colheres (sopa) polvilho azedo",
+        "1 colher (sopa) água",
+        "1 colher (sobremesa) iogurte desnatado ou queijo cottage",
+        "1 pitadinha Sal",
+        "3 fatias muçarela light"
+      ],
+      "image": "http://receitasdeminuto.com/wp-content/uploads/2020/07/pao_de_queijo_em_5_minutos1.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Salada de macarrão com atum",
+      "serves": 4,
+      "method": "Cozinhe o macarrão, escorra e deixe esfriar. Adicione todos os demais ingredientes, misture bem e regue com azeite. Leve a geladeira por 1 hora antes de servir.",
+      "time": 30,
+      "ingredients": [
+        "400 gramas macarrão penne",
+        "1 lata atum",
+        "200 gramas tomate cereja cortados",
+        "1 xícara azeitona preta sem caroço",
+        "A gosto manjericão",
+        "A gosto azeite",
+        "A gosto pimenta preta",
+        "A gosto orégano",
+        "A gosto Sal"
+      ],
+      "image": "https://www.receiteria.com.br/wp-content/uploads/receitas-de-salada-de-macarrao-com-atum.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Batata chips",
+      "serves": 4,
+      "method": "Lave, descasque e corte as batatas em rodelas bem finas com uma mandolin (fatiador).Preaqueça sua fritadeira elétrica a 200°C, regue as batatas com o azeite e misture bem. Divida as batatas em duas porções e frite uma porção de cada vez, isso deixará as batatas mais sequinhas. Abaixe a temperatura para 180°C e deixe por 10 min.Fique atento e, se for necessário, retire antes ou deixe na fritadeira por mais alguns minutos. Procure virar ou mexer as batatas de tempos em tempos.Retire as batatas e tempere com sal, páprica e salsa.",
+      "time": 35,
+      "type": "",
+      "ingredients": [
+        "3 batatas",
+        "1 colher (sopa) azeite de oliva",
+        "A gosto Sal",
+        "A gosto páprica picante",
+        "A gosto salsa desidratada"
+      ],
+      "image": "https://30118.cdn.simplo7.net/static/30118/sku/congelados-salgados-batata-chips--p-1626819860197.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Bolo de banana de liquidificador",
+      "serves": 20,
+      "method": "Em um liquidificador, bata o leite, a farinha, o ovo e o queijo ralado até formar uma mistura homogênea. Aqueça uma frigideira pequena em fogo baixo. Se a frigideira não for antiaderente, coloque umas gotinhas de óleo e espalhe. Coloque uma concha pequena da massa na frigideira não muito quente. Espalhe até pegar todo fundo e formar uma camada fina de massa. Vire a panqueca assim que ela desgrudar da frigideira. Cozinhe rapidamente o outro lado. Coloque as massas prontas em um prato limpo até terminar de fazer todas.Cubra com molho de tomate e salpique queijo ralado. Asse em forno a 180 graus celsius por 10 minutos.",
+      "time": 30,
+      "type": "",
+      "ingredients": [
+        "Três quartos de xícara de açúcar",
+        "Meia xícara de água quente",
+        "7 bananas",
+        "3 ovos",
+        "1 xícara de leite",
+        "1 colher de chá de vinagre",
+        "Meia xícara de óleo de canola",
+        "2 xícaras de açúcar",
+        "2 xicaras de farinha de trigo",
+        "1 colher de sopa de fermento químico"
+      ],
+      "image": "https://s2.glbimg.com/8Bi_on-qVBznGtD3JtX6qt5Q_d4=/0x0:1280x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2022/o/R/A9zrVxSHKJ7BK8MyfwsQ/bolo-de-banana-receita.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Tapioca de Peito de Peru",
+      "serves": 1,
+      "method": "Esquente uma frigideira e espalhe a tapioca o suficiente para cobrir o fundo da frigideira, coloque o peito de peru junto com o queijo, por fim dobre ao meio deixando o suficiente para esquentar o recheio, e pronto. Bora comer!!",
+      "time": 30,
+      "type": "fit",
+      "ingredients": ["200g Tapioca", "150g Peito de Peru", "150g Queijo"],
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fjcw.com.br%2Fwp-content%2Fuploads%2F2020%2F07%2FIMG_2343-1200x675.jpg&f=1&nofb=1"
+    },
+    {
+      "id": 22,
+      "title": "Tapioca de Frango com Requeijão Light",
+      "serves": 5,
+      "method": "Esquente uma frigideira e espalhe a tapioca o suficiente para cobrir o fundo da frigideira, coloque o frango junto com o requeijão, por fim dobre ao meio deixando o suficiente para esquentar o recheio, e pronto. Bora comer!!",
+      "time": 30,
+      "type": "fit",
+      "ingredients": ["200g Tapioca", "150g Frango", "1 colher Requeijão"],
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fguiadaculinaria.com%2Fwp-content%2Fuploads%2F2019%2F09%2Ftapioca-cremosa-de-frango-54845-1024x670.jpg&f=1&nofb=1"
+    },
+    {
+      "id": 23,
+      "title": "Biscoito Integral",
+      "serves": 1,
+      "method": "Misture a banana amassada com a quantidade de aveia de sau preferencia, unte uma forma e asse os biscoitos por 15 minutos a 180°",
+      "time": 60,
+      "type": "fit",
+      "ingredients": ["150g Aveia", "5 Banana"],
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mundoboaforma.com.br%2Fwp-content%2Fuploads%2F2017%2F11%2Fbiscoito-integral-light-620x330.jpg&f=1&nofb=1"
+    },
+    {
+      "id": 24,
+      "title": "Smothie",
+      "serves": 1,
+      "method": "Misture todo os ingredientes e bata no liquidificador até ficar no ponto desejado",
+      "time": 25,
+      "type": "fit",
+      "ingredients": [
+        "1l de Leite",
+        "Cubos de gelo à gosto",
+        "150g aveia",
+        "1 Bananas"
+      ],
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd1uz88p17r663j.cloudfront.net%2Foriginal%2F0952fe9d63d7c476e34b829394a5ee3e_smoothie-cacau-banana-receitas-nestle.jpg&f=1&nofb=1"
+    },
+    {
+      "id": 25,
+      "title": "Bolo de Caneca",
+      "serves": 1,
+      "method": "Misture 3 colheres de farinha de aveia com 1 colher de fermento em pó e 1 colher de iogurte natural junto da banana amassada e um ovo, leve tudo ao microondas por 2 minutos e por fim adicione açucar ou adocante se achar necessário",
+      "time": 15,
+      "type": "",
+      "ingredients": [
+        "150g Aveia",
+        "2 Bananas",
+        "50g Fermento",
+        "1 Ovo",
+        "50g Cacau"
+      ],
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclaudia.abril.com.br%2Fwp-content%2Fuploads%2F2020%2F02%2Fbolo-chocolate-caneca.jpg&f=1&nofb=1"
+    },
+    {
+      "id": 26,
+      "title": "Bolo de Cenoura",
+      "serves": 20,
+      "method": "Unte uma forma com óleo e povilhe com a farinha de trigo, em uma tigela misture a farinha, o fermento, o sal e reserve, na sequência bata no liquidificador a cenoura adicione o óleo o açucar e os ovos e bata até obter um creme liso, aos poucos adicione os ingredientes secos até ficar uma massa homogênea, passe a masssa para a assadeira e asse por 30 minutos",
+      "time": 45,
+      "type": "",
+      "ingredients": [
+        "1 Cenoura",
+        "2 Ovos",
+        "2 colheres de Óleo",
+        "150g de Açucar",
+        "500g de Farinha de Trigo",
+        "1 colher de Fermento",
+        "1 colher de chá de Sal"
+      ],
+      "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F3.bp.blogspot.com%2F-CpQLIP8mCeE%2FVkOkPcghApI%2FAAAAAAAASAM%2FRo5GriKqgPI%2Fs1600%2FIMG_4263.JPG&f=1&nofb=1"
+    },
+    {
+      "id": 27,
+      "title": "Massa para Pizza",
+      "serves": 5,
+      "method": "Misture o iogurte com 1 xícara de farinha numa tigela grande. Misture com a ajuda de um garfo (ou na batedeira) até ficar bem misturado. Lentamente, adicione a farinha restante conforme necessário até atingir a consistência certa. Dependendo do quão espesso for seu iogurte, você talvez precise usar toda a farinha. (Eu usei as 1 e 1/2 xícaras). Transfira a massa para uma bancada enfarinhada e sove bem por 5-8 minutos. A massa deve ficar um pouco grudenta mas não ao ponto de grudar totalmente na sua mão. Abra a massa no formato desejado, recheie e asse em forno preaquecido a 220 graus por 12 a 15 minutos. Vai depender do quão crocante você quer a massa. Retire do forno e transfira a pizza pra uma grelha para ela manter a crocância.",
+      "time": 50,
+      "type": "",
+      "ingredients": [
+        "500g Farinha de Trigo",
+        "1 colher de chá de Fermento",
+        "1 colher de chá de Sal",
+        "1 Iogurte Grego Natural"
+      ],
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.cuecasnacozinha.com.br%2Fwp-content%2Fuploads%2F2016%2F07%2FMassa-de-Pizza.jpg&f=1&nofb=1"
+    },
+    {
+      "id": 28,
+      "title": "Empadinha",
+      "serves": 32,
+      "method": "Em uma vasilha grande, coloque a farinha de trigo. Em seguida, pegue um copo americano e retire essa quantidade do copo exata de farinha da vasilha.Pronto! Você terá a quantidade exata de farinha para a receita. Acrescente a margarina aos poucos, o sal e misture bem. Coloque a massa nas forminhas, recheie a gosto e tampe as empadinhas. Pincele com gema de ovo e leve para assar em forno médio, pré-aquecido até as empadas ficarem douradas.",
+      "time": 30,
+      "type": "",
+      "ingredients": [
+        "500g de margarina gelada",
+        "1kg de farinha de trigo (menos um copo)",
+        "Sal"
+      ],
+      "image": "https://cdn.panelinha.com.br/receita/1612908745621-receita.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Pastel de forno",
+      "serves": 12,
+      "method": "Coloque o creme de leite e o sal em um recipiente e, em seguida, adicione a farinha, mas adicione aos poucos até desgrudar das mãos. Deixe a massa descansar por 10 minutos. Abra a massa e coloque o recheio de sua preferência. Utilize uma gema para pincelar os pastéis para ficarem douradinhos.Deixe assar por 30 ou 35 minutos.",
+      "time": 35,
+      "type": "",
+      "ingredients": [
+        "200 ml de creme de leite",
+        "2 xícaras de farinha de trigo peneirada",
+        "1 colher (chá) de sal"
+      ],
+      "image": "https://truffle-assets.imgix.net/716a52a5-pastel-de-forno-com-frango-cremoso_l_thumb.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Sorvete",
+      "serves": "5",
+      "method": "Bata o creme de leite, sem o soro, em uma batedeira ou liquidificador, lembrando que fica uma mistura cremosa e grosa no final, até que vire um líquido cremoso. Adicione toda a lata de leite condensado ao creme de leite e misture até ficar homogêneo. Adicione todo conteúdo do pacote do suco e misture até ficar com a cor do suco. Você vai ver que vai ficar bem grosso. Então coloque em um pote, e congele",
+      "time": 20,
+      "type": "",
+      "ingredients": [
+        "1 lata de creme de leite",
+        "1 lata de leite condensado",
+        "1 pacotinho de suco de 25 g (que possa ser utilizado com leite)"
+      ],
+      "image": "https://www.receitadodia.com/wp-content/uploads/2020/10/Aprenda-a-fazer-Sorvete-Caseiro.jpeg"
+    },
+    {
+      "id": 31,
+      "title": "Cookies de nutella",
+      "serves": 20,
+      "method": "Misture a Nutella, o ovo e a farinha até obter uma mistura homogênea.Faça disquinhos com a massa. Caso opte por rechear, deixe a Nutella na geladeira de antemão. Após abrir os disquinhos, coloque um pouco da Nutella no centro e cubra com outro disquinho. Esta receita rende cerca de 10 cookies recheados grandes, ou cerca de 20 sem recheio. Cubra uma forma com pape manteiga e distribua os cookies. Leve ao forno baixo (100° C) por cerca de 10 minutos.",
+      "time": 20,
+      "type": "",
+      "ingredients": [
+        "1 xícara de nutella",
+        "1 xícara de farinha",
+        "1 ovo batido",
+        "nutella para rechear (opcional)"
+      ],
+      "image": "https://i.ytimg.com/vi/WLUk8ydbvug/maxresdefault.jpg"
+    },
+    {
+      "id": 32,
+      "title": "Pudim",
+      "serves": 1,
+      "method": "Bata bem todos os ingredientes. Despeje a mistura na forma untada com a calda e coloque a forma em banho-maria para assar no forno. Deixe em temperatura média de 180º C a 240º C, até que a espuma da mistura esteja bem dourada. Espere esfriar e desgrude das laterais da forma (também ao redor do furo da forma) Com o auxilio de uma faca desenforme.",
+      "time": 60,
+      "type": "",
+      "ingredients": [
+        "1 lata de leite condensado",
+        "1 lata de leite (mesma medida do leite condensado)",
+        "4 ovos"
+      ],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPEC5fKvPZiTbIb3Tfp7KeWQjQXOP-kSh3vCEVsZFR4U_O_Nq4WjodyPR-UHXrmn1v77c&usqp=CAU"
+    },
+    {
+      "id": 33,
+      "title": "Pavê",
+      "serves": 60,
+      "method": "Bata o toddy e o creme de leite em um liquidificador por 5 minutos.Coloque uma fina camada do creme no fundo de um refratário, cubra com o biscoito, coloque de novo creme e assim por diante. Deixe gelar por 1 hora no congelador ou 4 horas na geladeira.",
+      "time": 60,
+      "type": "",
+      "ingredients": [
+        "400 g de chocolate em pó",
+        "4 caixas de creme de leite",
+        "3 pacotes de biscoito de maisena"
+      ],
+      "image": "https://img.itdg.com.br/tdg/images/recipes/000/015/939/354452/354452_original.jpg?mode=crop&width=710&height=400"
+    },
+    {
+      "id": 34,
+      "title": "Pão de Alho com Queijo",
+      "serves": 5,
+      "method": "Em recipiente, misture a manteiga, o azeite, o MAGGI MEU SEGREDO e a salsa. Reserve.Com uma faca serrilhada, corte o pão italiano em vários cubos, sem separá-lo da base (fica como uma tartaruga). Despeje a mistura reservada nos vãos, intercalando com o queijo mozarela. Coloque o pão em uma assadeira forrada com papel-alumínio, cubra com papel-alumínio e leve ao forno médio-alto (200°C), preaquecido, por cerca de 20 minutos. Sirva.",
+      "time": 30,
+      "type": "",
+      "ingredients": [
+        "2 colheres (sopa) de manteiga derretida",
+        "2 colheres (sopa) de azeite",
+        "4 colheres (sopa) de salsa picada",
+        "1 pão italiano redondo",
+        "1 xícara (chá) de queijo mozarela ralado"
+      ],
+      "image": "https://images.aws.nestle.recipes/resized/d78a5c581cdbb88312c495b7d800f895_pao-alho-queijo-receitas-nestle_768_384.jpg"
+    },
+    {
+      "id": 35,
+      "title": "Bolo de Caneca de Ninho ",
+      "serves": 1,
+      "method": "Em uma caneca, misture todos os ingredientes e leve ao micro-ondas, em potência média por 3 minutos. Polvilhe NINHO e sirva a seguir.",
+      "time": 10,
+      "type": "",
+      "ingredients": [
+        "2 colheres (sopa) de Leite em Pó NINHO",
+        "2 colheres (sopa) de farinha de trigo",
+        "1 colher (sopa) de açúcar demerara",
+        "meia colher (sopa) de fermento em pó",
+        "2 colheres (sopa) de óleo",
+        "1 ovo",
+        "3 colheres (sopa) de maçã picada"
+      ],
+      "image": "https://images.aws.nestle.recipes/resized/d5fb6ed917c86a0b6a9903bfe3e2ed87_bolinho-caneca-leite-ninho-ma%C3%A7a_768_384.jpg"
+    },
+    {
+      "id": 37,
+      "title": "Espetinho de Frango Assado",
+      "serves": 6,
+      "method": "Em um recipiente, misture o frango, o sal e o orégano. Em espetos de madeira para churrasco coloque 3 cubos de frango e repita o procedimento até terminar todo o frango. Coloque em uma assadeira untada com azeite e leve ao forno médio-alto (200°C), preaquecido, até que estejam dourados e crocantes (cerca de 25 minutos, virando-os na metade do tempo).",
+      "time": 50,
+      "type": "",
+      "ingredients": [
+        "300 g de peito de frango em cubos",
+        "meia colher (chá) de sal",
+        "1 colher (chá) de orégano",
+        "2 colheres (sopa) de Leite",
+        "8 unidades de Biscoito"
+      ],
+      "image": "https://images.aws.nestle.recipes/resized/715e7681d6053e50fdd1e65c449b3169_espetinho-frango-assado-com-molho-receitas-nestle_768_384.jpg"
+    },
+    {
+      "id": 38,
+      "title": "Arroz dia-a-dia",
+      "serves": 3,
+      "method": "Em uma panela, aqueça o óleo, junte a cenoura e refogue até ficar macia. Junte o arroz e refogue mais um pouco. Adicione a água fervente e o tablete de MAGGI Caldo. Espere levantar fervura, abaixe o fogo e cozinhe com a panela parcialmente tampada por cerca de 15 minutos ou até que o arroz secar.Retire do fogo e misture a salsa. Sirva a seguir, polvilhado com queijo ralado.",
+      "time": 30,
+      "type": "",
+      "ingredients": [
+        "1 colher (sopa) de óleo",
+        "1 cenoura pequena ralada",
+        "1 xícara (chá) de arroz lavado e escorrido",
+        "2 xícaras (chá) de água fervente",
+        "1 tablete de  Caldo Galinha",
+        "1 colher (sopa) de salsa picada",
+        "1 colher (sopa) de queijo parmesão ralado"
+      ],
+      "image": "https://images.aws.nestle.recipes/resized/1c7782a6cb3ed41d6238bbc64cdb37f6_arroz-dia-dia-receitas-nestle_768_384.jpg"
+    },
+    {
+      "id": 39,
+      "title": "Purê de Batatas ao Creme",
+      "serves": 2,
+      "method": "Em uma panela, coloque as batatas ainda mornas e amasse-as.Acrescente o sal e aqueça em fogo baixo. Desligue o fogo, acrescente o NESTLÉ Creme de Leite, misture e sirva.",
+      "time": 15,
+      "type": "",
+      "ingredients": [
+        "1 quilo de batatas descascadas e cozidas",
+        "2 colheres (chá) de sal",
+        "1 lata de Creme de Leite"
+      ],
+      "image": "https://images.aws.nestle.recipes/resized/cc37097fc4336656bd597726057f25c3_pure-batatas-creme-receitas-nestle_768_384.jpg"
+    },
+    {
+      "id": 40,
+      "title": "Salada de Frutas com Chocolate",
+      "serves": 1,
+      "method": "Em uma panela, dissolva o amido de milho na água e leve ao fogo, mexendo sempre, até engrossar. Desligue o fogo, adicione o NUTREN Kids e as raspas de limão e misture.",
+      "time": 15,
+      "type": "",
+      "ingredients": [
+        "meia colher (chá) de amido de milho",
+        "meia xícara (chá) de água",
+        "3 colheres (sopa) de NUTREN® Kids Chocolate",
+        "meia colher (chá) de raspas da casca de limão"
+      ],
+      "image": "https://www.coopercica.com.br/wp-content/uploads/2017/09/salada-de-frutas-com-chocolate-1.jpg"
+    },
+    {
+      "id": 41,
+      "title": "Chips de banana da terra",
+      "serves": 2,
+      "method": "Descasque as banana com a ajuda de uma faca e corte em lâminas compridas utilizando um fatiador como este da foto. Unte uma assadeira com um fio de óleo de coco, que é super saudável, mas se não tiver, pode usar azeite mesmo. Disponha as lâminas lado a lado, mas sem encostar uma na outra e pincele óleo de coco sobre elas. Tempere a gosto com o sal e o mix de pimenta e leve ao forno preaquecido 180º por 20 minutos ou até ficarem douradas e crocantes.",
+      "time": 20,
+      "type": "fit",
+      "ingredients": [
+        "2 bananas da terra mais verdes",
+        "óleo de coco para untar e pincelar",
+        "mix de pimenta moídos na hora",
+        "sal integral orgânico ou o sal que você está acostumado a usar"
+      ],
+      "image": "http://cozinhatravessa.com.br/wp-content/uploads/2015/04/CozinhaTravessa_02.jpg"
+    },
+    {
+      "id": 42,
+      "title": "Pipoca fitness",
+      "serves": 3,
+      "method": "Coloque o milho e a água em um recipiente alto, cubra com plástico filme, faça uns furinhos com o garfo no plástico e leve ao microondas por cerca de 6 minutos em potência alta.",
+      "time": 15,
+      "type": "fit",
+      "ingredients": [
+        " 0,5 xícara (chá) milho",
+        "2 colheres (sopa) água",
+        "1 pitada Sal (opcional)"
+      ],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7n-OKP_5miSr7ba4ayUtNKzPPLJDLqTpFuUkz8YxrW_QcQHlfiwL8OuuS_NqZJm2_N7k&usqp=CAU"
+    },
+    {
+      "id": 43,
+      "title": "Rosquinha de polvilho",
+      "serves": 10,
+      "method": "Misture o polvilho, o ovo, o óleo e o sal. Acrescente por último a água quente, e amasse até formar uma massa homogênea. Faça rosquinhas ou palitos e coloque em uma travessa. Leve ao forno pré aquecido (180 graus) por aproximadamente 15 minutos",
+      "time": 10,
+      "type": "fit",
+      "ingredients": [
+        "  2 xícaras (chá) polvilho azedo",
+        "1 ovo",
+        "1 colher (sopa) óleo de coco ou outro",
+        "0,25 xícara (chá) água quente",
+        "1 pitada Sal"
+      ],
+      "image": "https://cdn.awsli.com.br/600x450/1139/1139711/produto/41986058/7a048797a6.jpg"
+    },
+    {
+      "id": 44,
+      "title": "Biscoitos de banana",
+      "serves": 15,
+      "method": "Mistura tudo, faz “bolinhas”, coloque em uma forma (unte com manteiga ou óleo de coco) e leve ao forno médio por 15 a 20 minutos.",
+      "time": 25,
+      "ingredients": [
+        "3 bananas",
+        "1 clara",
+        "cacau em pó sem açúcar",
+        "adoçante em pó a gosto, ou açúcar de coco",
+        "1 colher de café de fermento em pó para bolo",
+        "1 xícara e meia de aveia (flocos finos ou farinha)"
+      ],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9YqGYL9psthKC_E37zlHRxriMaFFSkPr4knzi52gherPjk98bVc4a97jlauJysSJHSlk&usqp=CAU",
+      "type": "fit"
+    },
+    {
+      "id": 45,
+      "title": "Omelete de claras",
+      "serves": 3,
+      "method": "Bata quatro claras em neve, tempere com salsinha, cebolinha, abobrinha ralada, sal e pimenta- do-reino. Depois, coloque numa frigideira untada com óleo no fogo médio. Doure de um lado, vire e doure do outro lado. Sirva em seguida.Pode colocar queijo ralado, alho-poró, cenoura ralada e abobrinha ralada.",
+      "time": 30,
+      "type": "fit",
+      "ingredients": [
+        "4 ovos",
+        "Pimenta-do-reino a gosto",
+        "salsinha a gosto",
+        "Alho poró a gosto",
+        "Queijo ralado a gosto",
+        "Salsinha a gosto",
+        "Cebolinha a gosto",
+        "Abobrinha a gosto"
+      ],
+      "image": "https://s2.glbimg.com/YDnGlc6BssPSydoIO8kuihJCy_Q=/0x0:924x615/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2021/2/i/QB8fXjR5akXsRR4qjEzg/omelete-de-claras.jpg"
+    },
+    {
+      "id": 46,
+      "title": "",
+      "serves": 0,
+      "method": "",
+      "time": "",
+      "type": "",
+      "ingredients": [],
+      "image": ""
+    },
+    {
+      "id": 47,
+      "title": "",
+      "serves": 0,
+      "type": "",
+      "method": "",
+      "time": "",
+      "ingredients": [],
+      "image": ""
     }
   ]
 }
