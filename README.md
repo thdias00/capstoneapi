@@ -118,9 +118,7 @@ Nós receberemos a seguinte resposta:
     "username": "",
     "photo": "",
     "category": "Lorem",
-    "description": "Lorem ipsum dolor sit amet, 
-    consectetur adipiscing elit, sed do eiusmod 
-    tempor incididunt ut labore et dolore magna."
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
 }
 ```
 
