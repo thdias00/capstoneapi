@@ -1,5 +1,6 @@
 # Capstone - API
-Este é o back-end da aplicação cujo objetivo é encontrar e cadastrar receitas que aproveitem ao máximo os ingredientes disponíveis em casa. 
+Este é o back-end da aplicação cujo objetivo é encontrar receitas que aproveitem ao máximo os ingredientes disponíveis em casa. 
+Além disso, o usuário pode ver publicações no feed tal como cadastrá-las, editá-las e deletá-las.
 
 ## Endpoints 
 
@@ -51,14 +52,143 @@ Esperamos a seguinte resposta caso esteja correto:
   }
 }
 ```
-## Criação de receitas
+## Publicações do Feed
 
 O usuário precisa estar logado para ter acesso, cadastrar, editar e deletar.
 
+### Visualização de publicações
+
 `GET /publications - FORMATO DA REQUISIÇÃO`
+
+Nós receberemos a seguinte resposta:
+
+`GET /publications - 200 OK`
+
+```json
+
+[
+  {
+    "userId": 3,
+    "icon": "",
+    "username": "",
+    "photo": "",
+    "category": "",
+    "description": "",
+    "id": 1
+  },
+  {
+    "userId": 3,
+    "icon": "",
+    "username": "",
+    "photo": "",
+    "category": "Lorem",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": 2
+  },
+  {
+    "userId": 3,
+    "icon": "",
+    "username": "",
+    "photo": "",
+    "category": "Lorem",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": 3
+  },
+  {
+    "userId": 5,
+    "icon": "",
+    "username": "",
+    "photo": "",
+    "category": "Lorem",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "id": 4
+  }
+]
+
+```
+
+### Cadastro de publicação
 
 `POST /publications - FORMATO DA REQUISIÇÃO`
 
-`PATCH /publications/id - FORMATO DA REQUISIÇÃO`
+```json
+{
+    "userId": 5,
+    "icon": "",
+    "username": "",
+    "photo": "",
+    "category": "Lorem",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna."
+}
+```
 
-`DELETE /publications/id - FORMATO DA REQUISIÇÃO`
+Esperamos a seguinte resposta caso dê tudo certo:
+
+`POST/ publications - FORMATO DA RESPOSTA - 201 created`
+
+```json
+{
+  "userId": 5,
+  "icon": "",
+  "username": "",
+  "photo": "",
+  "category": "Lorem",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "id": 4
+}
+```
+
+### Edição de publicação
+
+`PATCH /publications/:id - FORMATO DA REQUISIÇÃO`
+
+```json
+{
+	 "userId": 5,
+   "icon": "",
+   "username": "",
+   "photo": "",
+   "category": "Lorem ipsum",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	"id": "4"
+}
+```
+
+Esperamos a seguinte resposta: 
+
+`PATCH /publications/:id - FORMATO DA RESPOSTA - 200 OK`
+
+```json
+{
+  "userId": 5,
+  "icon": "",
+  "username": "",
+  "photo": "",
+  "category": "Lorem ipsum",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  "id": 4
+}
+```
+
+### Deleção de publicação
+
+`DELETE /publications/:id - FORMATO DA REQUISIÇÃO`
+
+```json
+{
+	 "userId": 5,
+   "icon": "",
+   "username": "",
+   "photo": "",
+   "category": "Lorem ipsum",
+   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+	"id": "4"
+}
+```
+Após a deleção esperamos a seguinte resposta: 
+
+`DELETE /publications/:id - FORMATO DA RESPOSTA - 200 OK`
+
+```json
+{}
+```

@@ -8,7 +8,16 @@
       "id": 1
     }
   ],
-  "publications": [],
+  "publications": [
+    {
+        "userId": 1,
+        "icon": "",
+        "username": "",
+        "photo": "",
+        "category": "",
+        "description": ""
+    }
+  ],
   "recipes": [
     {
       "id": 1,
