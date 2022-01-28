@@ -37,7 +37,7 @@
         " 1 pitada de sal",
         " canela em pó a gosto"
       ],
-      "SearchIngredients": [
+      "searchIngredients": [
         "arroz",
         "leite",
         "leite de coco",
@@ -130,7 +130,7 @@
         "Sal"
       ],
       "searchIngredients": [
-        " arroz",
+        "arroz",
         "carne seca",
         "bacon",
         "calabresa",
@@ -340,7 +340,7 @@
         "farinha de trigo",
         "chocolate",
         "sal",
-        "1bicarbonato de sódio"
+        "bicarbonato de sódio"
       ],
       "image": "https://images.aws.nestle.recipes/resized/9d55f5cb5d50ceb849c91dae9e10125d_cookies-chocolate-receitas-nestle_768_384.jpg"
     },
@@ -912,7 +912,7 @@
         "2 colheres (chá) de sal",
         "1 lata de Creme de Leite"
       ],
-      "searchIngredients": ["batata", "sal", "Creme de Leite"],
+      "searchIngredients": ["batata", "sal", "creme de Leite"],
       "image": "https://images.aws.nestle.recipes/resized/cc37097fc4336656bd597726057f25c3_pure-batatas-creme-receitas-nestle_768_384.jpg"
     },
     {
@@ -931,7 +931,6 @@
       "searchIngredients": [
         "amido de milho",
         "água",
-        "NUTREN® Kids Chocolate",
         "limão"
       ],
       "image": "https://www.coopercica.com.br/wp-content/uploads/2017/09/salada-de-frutas-com-chocolate-1.jpg"
