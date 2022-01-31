@@ -13,7 +13,9 @@ A URL base desta API encontra-se em: https://capstone-json.herokuapp.com/
 ```JSON
 {
 	"email": "jondoe@mail.com",
-	"password": "987654321"
+	"password": "987654321",
+	"username": "johnjohn",
+	"profile": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_132120.png&f=1&nofb=1"
 }
 ```
 Esperamos a seguinte resposta positiva:
@@ -22,13 +24,39 @@ Esperamos a seguinte resposta positiva:
 
 ```JSON
 {
-  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvbmRvZUBtYWlsLmNvbSIsImlhdCI6MTY0MzA1NDc0OSwiZXhwIjoxNjQzMDU4MzQ5LCJzdWIiOiIzIn0.00NSDg5P0D7ZhDxVFL4gLn5dXcvCJlUhNFXhNXXESws",
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImpvbmRvZUBtYWlsLmNvbSIsImlhdCI6MTY0MzY2NTI4NSwiZXhwIjoxNjQzNjY4ODg1LCJzdWIiOiIxMCJ9.tae-IFm75M8AYzlBSwjwnqvDbwrcykdo7jHrZoQPe_0",
   "user": {
     "email": "jondoe@mail.com",
-    "id": 3
+    "username": "johnjohn",
+    "profile": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.onlinewebfonts.com%2Fsvg%2Fimg_132120.png&f=1&nofb=1",
+    "id": 10
   }
 }
 ```
+### Edição de usuário - Uso para escolher ícone de perfil
+
+`PATCH /users/:id - FORMATO DA REQUISIÇÃO`
+
+```json
+{
+	"profile": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F000%2F571%2F419%2Foriginal%2Fvector-network-icon.jpg&f=1&nofb=1"
+}
+```
+
+Esperamos a seguinte resposta:
+
+`PATCH /users/:id - FORMATO DA RESPOSTA - STATUS 200`
+
+```json
+{
+  "email": "jondoe@mail.com",
+  "password": "$2a$10$kqXOyfz5MGUIhCuOovkbWODmDGtn2/6eGvaTigUBRf0QRK56RWy3i",
+  "username": "johnjohn",
+  "profile": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F000%2F571%2F419%2Foriginal%2Fvector-network-icon.jpg&f=1&nofb=1",
+  "id": 10
+}
+```
+
 ### Login
 
 `POST /login - FORMATO DA REQUISIÇÃO`
