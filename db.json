@@ -10,14 +10,70 @@
   ],
   "publications": [
     {
-        "userId": 1,
-        "icon": "",
-        "username": "",
-        "photo": "",
-        "category": "",
-        "description": ""
+      "userId": 1,
+      "icon": "",
+      "username": "",
+      "photo": "",
+      "category": "",
+      "description": ""
     }
   ],
+  "icons": [
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/1mVSFyw/92-512-23176.png"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/ZM56cqy/vector-illustration-of-the-chef-avatar-icon-Perfect-template-for-chef-or-kitchen-design.jpg"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/Y01MCCL/chef-icon-png-19.png"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/vPkwt77/1308161.png"
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/ZLWyJJG/professional-chef-icon-vector-7497725.jpg"
+    }
+  ],
+
+  "feed": [
+    {
+      "id": 1,
+      "type": "doce",
+      "image": "https://i.pinimg.com/564x/c0/83/f4/c083f43dbf62d890dc63bfc78b74fa4f.jpg"
+    },
+    {
+      "id": 2,
+      "type": "doce",
+      "image": "https://i.pinimg.com/564x/70/d8/34/70d8341680bb052ede9bdba2ed026b4d.jpg"
+    },
+    {
+      "id": 3,
+      "type": "entrada",
+      "image": "https://i.pinimg.com/564x/8e/81/a4/8e81a44db8a43574c693482b82b17fcd.jpg"
+    },
+    {
+      "id": 4,
+      "type": "entrada",
+      "image": "https://i.pinimg.com/564x/3b/64/ce/3b64ce8ac0eeb0136634a5e2abfa5a33.jpg"
+    },
+    {
+      "id": 5,
+      "type": "principal",
+      "image": "https://i.pinimg.com/564x/40/43/eb/4043eb2a4022aebf24e99296d0cbc009.jpg"
+    },
+    {
+      "id": 6,
+      "type": "principal",
+      "image": "https://i.pinimg.com/564x/32/63/0f/32630ff94b82697b2a019f05da7f7386.jpg"
+    }
+  ],
+
   "recipes": [
     {
       "id": 1,
@@ -597,7 +653,7 @@
       "image": "https://s2.glbimg.com/8Bi_on-qVBznGtD3JtX6qt5Q_d4=/0x0:1280x800/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2022/o/R/A9zrVxSHKJ7BK8MyfwsQ/bolo-de-banana-receita.jpg"
     },
     {
-      "id": 21,
+      "id": 46,
       "title": "Tapioca de Peito de Peru",
       "serves": 1,
       "method": "Esquente uma frigideira e espalhe a tapioca o suficiente para cobrir o fundo da frigideira, coloque o peito de peru junto com o queijo, por fim dobre ao meio deixando o suficiente para esquentar o recheio, e pronto. Bora comer!!",
@@ -928,11 +984,7 @@
         "3 colheres (sopa) de NUTREN® Kids Chocolate",
         "meia colher (chá) de raspas da casca de limão"
       ],
-      "searchIngredients": [
-        "amido de milho",
-        "água",
-        "limão"
-      ],
+      "searchIngredients": ["amido de milho", "água", "limão"],
       "image": "https://www.coopercica.com.br/wp-content/uploads/2017/09/salada-de-frutas-com-chocolate-1.jpg"
     },
     {
