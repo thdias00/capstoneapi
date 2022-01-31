@@ -12,6 +12,8 @@ const rules = auth.rewriter({
   users: 600,
   publications: 640,
   recipes: 444,
+  icons: 640,
+  feed: 640,
 });
 
 app.use(cors());
