@@ -681,8 +681,8 @@
       "method": "Misture a banana amassada com a quantidade de aveia de sau preferencia, unte uma forma e asse os biscoitos por 15 minutos a 180°",
       "time": 60,
       "type": "fit",
-      "ingredients": ["150g Aveia", "5 Banana"],
-      "searchIngredients": ["aveia", "banana"],
+      "ingredients": ["150g Aveia", "5 Banana", "15g de canela"],
+      "searchIngredients": ["aveia", "banana", "canela"],
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mundoboaforma.com.br%2Fwp-content%2Fuploads%2F2017%2F11%2Fbiscoito-integral-light-620x330.jpg&f=1&nofb=1"
     },
     {
