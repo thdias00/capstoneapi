@@ -8,16 +8,7 @@
       "id": 1
     }
   ],
-  "publications": [
-    {
-      "userId": 1,
-      "icon": "",
-      "username": "",
-      "photo": "",
-      "category": "",
-      "description": ""
-    }
-  ],
+  "publications": [],
   "icons": [
     {
       "id": 1,
@@ -81,7 +72,7 @@
       "serves": 5,
       "method": "Numa panela, misture todos os ingredientes - com exceção do leite condensado. Leve em fogo baixo e mexa de vez em quando, cuidando para o arroz não grudar no fundo da panela. Deixe cozinhar por aproximadamente 20 minutos. Junte o leite condensado e deixe cozinhar por mais 5 minutos. Polvilhe com canela em pó para servir",
       "time": 35,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         " 1 xícara de arroz",
         " 3 xícaras de leite",
@@ -378,7 +369,7 @@
       "serves": 90,
       "method": "Em uma batedeira, bata ligeiramente a manteiga e, mantendo-a ligada, acrescente aos poucos as gemas e o Leite MOÇA em fio, até obter um creme bem leve e esbranquiçado (aproximadamente 20 minutos batendo em velocidade média). Bata as claras em neve e incorpore-as à massa.Unte com manteiga duas assadeiras grandes e coloque nelas pequenas porções de massa, mantendo uma distância aproximada de 8 cm entre cada porção. Decore cada cookie com um pedacinho de Chocolate NESTLÉ CLASSIC e leve ao forno médio (180°C), preaquecido, por cerca de 30 minutos.",
       "time": 60,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "200 g de manteiga em temperatura ambiente",
         "2 ovos",
@@ -434,7 +425,7 @@
       "serves": 2,
       "method": "Em uma panela, coloque o Leite MOÇA com o Chocolate em Pó e a manteiga. Misture bem e leve ao fogo baixo, mexendo sempre até desprender do fundo da panela (cerca de 10 minutos). Retire do fogo, passe para um prato untado com manteiga e deixe esfriar. Com as mãos untadas, enrole em bolinhas e passe-as no granulado. Sirva em forminhas de papel.",
       "time": 25,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "1 Leite condensado (lata ou caixinha)",
         "3 colheres (sopa) de Chocolate em pó ",
@@ -497,13 +488,13 @@
       "serves": 10,
       "method": "Coloque no liquidificador o creme de leite (com soro mesmo) e o leite condensado. Bata um pouco e depois vá acrescentando o suco do limão, aos poucos. Ele vai ficar bem consistente, leve à geladeira.",
       "time": 10,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         " 1 lata de leite condensado",
         "1 lata de creme de leite",
         "1/2 xícara de suco de limão"
       ],
-      "searchIngredients": ["eite condensado", "creme de leite", "limão"],
+      "searchIngredients": ["leite condensado", "creme de leite", "limão"],
       "image": "https://www.radioaltouruguai.com.br/wp-content/uploads/2020/06/img_mousse_de_limao_com_suco_tang_4510_orig.jpg"
     },
     {
@@ -625,7 +616,7 @@
       "serves": 20,
       "method": "Em um liquidificador, bata o leite, a farinha, o ovo e o queijo ralado até formar uma mistura homogênea. Aqueça uma frigideira pequena em fogo baixo. Se a frigideira não for antiaderente, coloque umas gotinhas de óleo e espalhe. Coloque uma concha pequena da massa na frigideira não muito quente. Espalhe até pegar todo fundo e formar uma camada fina de massa. Vire a panqueca assim que ela desgrudar da frigideira. Cozinhe rapidamente o outro lado. Coloque as massas prontas em um prato limpo até terminar de fazer todas.Cubra com molho de tomate e salpique queijo ralado. Asse em forno a 180 graus celsius por 10 minutos.",
       "time": 30,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "Três quartos de xícara de açúcar",
         "Meia xícara de água quente",
@@ -681,8 +672,8 @@
       "method": "Misture a banana amassada com a quantidade de aveia de sau preferencia, unte uma forma e asse os biscoitos por 15 minutos a 180°",
       "time": 60,
       "type": "fit",
-      "ingredients": ["150g Aveia", "5 Banana"],
-      "searchIngredients": ["aveia", "banana"],
+      "ingredients": ["150g Aveia", "5 Banana", "15g de canela"],
+      "searchIngredients": ["aveia", "banana", "canela"],
       "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.mundoboaforma.com.br%2Fwp-content%2Fuploads%2F2017%2F11%2Fbiscoito-integral-light-620x330.jpg&f=1&nofb=1"
     },
     {
@@ -707,7 +698,7 @@
       "serves": 1,
       "method": "Misture 3 colheres de farinha de aveia com 1 colher de fermento em pó e 1 colher de iogurte natural junto da banana amassada e um ovo, leve tudo ao microondas por 2 minutos e por fim adicione açucar ou adocante se achar necessário",
       "time": 15,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "150g Aveia",
         "2 Bananas",
@@ -730,7 +721,7 @@
       "serves": 20,
       "method": "Unte uma forma com óleo e povilhe com a farinha de trigo, em uma tigela misture a farinha, o fermento, o sal e reserve, na sequência bata no liquidificador a cenoura adicione o óleo o açucar e os ovos e bata até obter um creme liso, aos poucos adicione os ingredientes secos até ficar uma massa homogênea, passe a masssa para a assadeira e asse por 30 minutos",
       "time": 45,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "1 Cenoura",
         "2 Ovos",
@@ -803,7 +794,7 @@
       "serves": "5",
       "method": "Bata o creme de leite, sem o soro, em uma batedeira ou liquidificador, lembrando que fica uma mistura cremosa e grosa no final, até que vire um líquido cremoso. Adicione toda a lata de leite condensado ao creme de leite e misture até ficar homogêneo. Adicione todo conteúdo do pacote do suco e misture até ficar com a cor do suco. Você vai ver que vai ficar bem grosso. Então coloque em um pote, e congele",
       "time": 20,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "1 lata de creme de leite",
         "1 lata de leite condensado",
@@ -818,7 +809,7 @@
       "serves": 20,
       "method": "Misture a Nutella, o ovo e a farinha até obter uma mistura homogênea.Faça disquinhos com a massa. Caso opte por rechear, deixe a Nutella na geladeira de antemão. Após abrir os disquinhos, coloque um pouco da Nutella no centro e cubra com outro disquinho. Esta receita rende cerca de 10 cookies recheados grandes, ou cerca de 20 sem recheio. Cubra uma forma com pape manteiga e distribua os cookies. Leve ao forno baixo (100° C) por cerca de 10 minutos.",
       "time": 20,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "1 xícara de nutella",
         "1 xícara de farinha",
@@ -834,7 +825,7 @@
       "serves": 1,
       "method": "Bata bem todos os ingredientes. Despeje a mistura na forma untada com a calda e coloque a forma em banho-maria para assar no forno. Deixe em temperatura média de 180º C a 240º C, até que a espuma da mistura esteja bem dourada. Espere esfriar e desgrude das laterais da forma (também ao redor do furo da forma) Com o auxilio de uma faca desenforme.",
       "time": 60,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "1 lata de leite condensado",
         "1 lata de leite (mesma medida do leite condensado)",
@@ -849,7 +840,7 @@
       "serves": 60,
       "method": "Bata o toddy e o creme de leite em um liquidificador por 5 minutos.Coloque uma fina camada do creme no fundo de um refratário, cubra com o biscoito, coloque de novo creme e assim por diante. Deixe gelar por 1 hora no congelador ou 4 horas na geladeira.",
       "time": 60,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "400 g de chocolate em pó",
         "4 caixas de creme de leite",
@@ -891,7 +882,7 @@
       "serves": 1,
       "method": "Em uma caneca, misture todos os ingredientes e leve ao micro-ondas, em potência média por 3 minutos. Polvilhe NINHO e sirva a seguir.",
       "time": 10,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "2 colheres (sopa) de Leite em Pó NINHO",
         "2 colheres (sopa) de farinha de trigo",
@@ -977,7 +968,7 @@
       "serves": 1,
       "method": "Em uma panela, dissolva o amido de milho na água e leve ao fogo, mexendo sempre, até engrossar. Desligue o fogo, adicione o NUTREN Kids e as raspas de limão e misture.",
       "time": 15,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "meia colher (chá) de amido de milho",
         "meia xícara (chá) de água",
@@ -1089,6 +1080,108 @@
         "abobrinha"
       ],
       "image": "https://s2.glbimg.com/YDnGlc6BssPSydoIO8kuihJCy_Q=/0x0:924x615/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_1f540e0b94d8437dbbc39d567a1dee68/internal_photos/bs/2021/2/i/QB8fXjR5akXsRR4qjEzg/omelete-de-claras.jpg"
-    }
+    },
+    {
+  "id": 46,
+  "title": "Torta de biscoito",
+  "serves": 5,
+  "method": "Adicione o leite condensado, o creme de leite, esprema o limão num recipiente e bata até ficar uma mistura homogênea.Quebre um dos os biscoitos por fora do pacote e despeje o biscoito para mexer. Após misturar, molhe os biscoitos do outro pacote no leite, crie duas camadas num recipiente e armazene na geladeira.",
+  "time": 30,
+  "type": "Sobremesa",
+  "ingredients": [
+    "1 caixinha de leite condensado",
+    "1 caixinha de creme de leite",
+    "50 ml de limão",
+    "2 pacotes de biscoito",
+  ],
+  "searchIngredients": [
+    "leite condensado",
+    "creme de leite",
+    "limão",
+    "biscoito",
+  ],
+  "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.oetker.com.br%2FRecipe%2FRecipes%2Foetker.com.br%2Fbr-pt%2Fdessert%2Fimage-thumb__40379__RecipeDetailsLightBox%2Ftorta-de-sorvete-e-biscoito.jpg&f=1&nofb=1"
+},
+{
+  "id": 47,
+  "title": "Doce de leite",
+  "serves": 5,
+  "method": "Em uma panela, adicione a manteiga e açúcar e misture, depois, leite em pó. Adicione o leite e ligue o forno, mexendo até adquirir uma consistência cremosa. Apague o forno e unte uma travessa com manteiga/margarina. Use uma metade da porção para ir à travessa e outra metade para misturar com chocolate até dissolver e acrescentar mais leite. Ponha acima da outra metade do doce e deixe na geladeira até endurecer.",
+  "time": 45,
+  "type": "Sobremesa",
+  "ingredients": [
+    "1 xicara de açúcar",
+    "2 colheres de manteiga",
+    "200g de leite em pó",
+    "Meia xícara de leite",
+    "50g de chocolate (fica a gosto)",
+  ],
+  "searchIngredients": [
+    "açúcar",
+    "manteiga",
+    "leite",
+    "chocolate"
+  ],
+  "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmeucadernodereceitas.xyz%2Fwp-content%2Fuploads%2F2018%2F06%2FDoce-de-leite-de-corte.jpg&f=1&nofb=1"
+},
+{
+  "id": 48,
+  "title": "Doce de banana",
+  "serves": 5,
+  "method": "Amasse a banana ou bata no liquidificador. Adicione uma xícara de açucar até dissolver e transfira para uma panela em fogo baixo. Mexa bem até começar a grudar na panela, então adicione água e meio limão (opcional). Quando estiver caramelado, adicione mais 30mL de água e mexa até o doce ficar juntinho. Deixe esfriar fora da geladeira e faça cortes como quiser. Passe no açúcar a gosto (opcional).",
+  "time": 30,
+  "type": "Sobremesa",
+  "ingredients": [
+    "5 unidades de banana",
+    "1 xícara de açúcar",
+    "Limão a gosto",
+  ],
+  "searchIngredients": [
+      "bananas",
+      "açúcar"
+  ],
+  "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-ItdOXObyL5w%2FTnzph7i4wcI%2FAAAAAAAAOEk%2FJATPoL4MYGE%2Fs1600%2FDSC_0135.JPG&f=1&nofb=1"
+},
+{
+  "id": 49,
+  "title": "Mingau de milho",
+  "serves": 1,
+  "method": "Corte todo o milho da espiga, passe para o liquidificador, adicione o leite e bata. Peneire e coe esta mistura numa panela, adicione o açúcar e misture. Coloque em fogo baixo e mexa até engrossar. Passe para o recipiente de preferência e bora comer!",
+  "time": 30,
+  "type": "Sobremesa",
+  "ingredients": [
+    "7 espigas de milho verde",
+    "1 litro de leite",
+    "2 xícaras de açúcar (400ml)",
+    "Canela a gosto ",
+  ],
+  "searchIngredients": [
+    "milho",
+    "leite",
+    "açúcar",
+  ],
+  "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-Z9A6LX_uv04%2FX_8_DrieBeI%2FAAAAAAAAMO0%2FyR7oha0N8CsgaN4QNpvuKgV3kBQBlEWQQCLcBGAsYHQ%2Fs1366%2Fcuraudemilho.jpg&f=1&nofb=1"
+},
+{
+  "id": 50,
+  "title": "Creme de limão com biscoito.",
+  "serves": 5,
+  "method": "Adicione o creme de leite, leite condensado, o suco de limão e misture bem até ficar cremoso. Acrescente este creme em recipientes de preferência e quebre os biscoitos por cima. Acrescente mais uma camada de creme e biscoitos. Deixe gelar e já pode comer!",
+  "time": 30,
+  "type": "Sobremesa",
+  "ingredients": [
+    "400g de creme de leite"
+    "395g de leite condensado"
+    "50 mL de suco de limão"
+    "Biscoito da sua preferência"
+  ],
+  "searchIngredients": [
+    "creme de leite",
+    "leite condensado",
+    "limão",
+    "biscoito",
+  ],
+  "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmeucadernodereceitas.xyz%2Fwp-content%2Fuploads%2F2020%2F06%2FMousse-de-Biscoito-Oreo-no-Pote.png&f=1&nofb=1"
+}
   ]
 }
