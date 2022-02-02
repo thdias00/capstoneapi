@@ -8,16 +8,7 @@
       "id": 1
     }
   ],
-  "publications": [
-    {
-      "userId": 1,
-      "icon": "",
-      "username": "",
-      "photo": "",
-      "category": "",
-      "description": ""
-    }
-  ],
+  "publications": [],
   "icons": [
     {
       "id": 1,
