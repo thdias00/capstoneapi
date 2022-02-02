@@ -72,7 +72,7 @@
       "serves": 5,
       "method": "Numa panela, misture todos os ingredientes - com exceção do leite condensado. Leve em fogo baixo e mexa de vez em quando, cuidando para o arroz não grudar no fundo da panela. Deixe cozinhar por aproximadamente 20 minutos. Junte o leite condensado e deixe cozinhar por mais 5 minutos. Polvilhe com canela em pó para servir",
       "time": 35,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         " 1 xícara de arroz",
         " 3 xícaras de leite",
@@ -369,7 +369,7 @@
       "serves": 90,
       "method": "Em uma batedeira, bata ligeiramente a manteiga e, mantendo-a ligada, acrescente aos poucos as gemas e o Leite MOÇA em fio, até obter um creme bem leve e esbranquiçado (aproximadamente 20 minutos batendo em velocidade média). Bata as claras em neve e incorpore-as à massa.Unte com manteiga duas assadeiras grandes e coloque nelas pequenas porções de massa, mantendo uma distância aproximada de 8 cm entre cada porção. Decore cada cookie com um pedacinho de Chocolate NESTLÉ CLASSIC e leve ao forno médio (180°C), preaquecido, por cerca de 30 minutos.",
       "time": 60,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "200 g de manteiga em temperatura ambiente",
         "2 ovos",
@@ -425,7 +425,7 @@
       "serves": 2,
       "method": "Em uma panela, coloque o Leite MOÇA com o Chocolate em Pó e a manteiga. Misture bem e leve ao fogo baixo, mexendo sempre até desprender do fundo da panela (cerca de 10 minutos). Retire do fogo, passe para um prato untado com manteiga e deixe esfriar. Com as mãos untadas, enrole em bolinhas e passe-as no granulado. Sirva em forminhas de papel.",
       "time": 25,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "1 Leite condensado (lata ou caixinha)",
         "3 colheres (sopa) de Chocolate em pó ",
@@ -488,7 +488,7 @@
       "serves": 10,
       "method": "Coloque no liquidificador o creme de leite (com soro mesmo) e o leite condensado. Bata um pouco e depois vá acrescentando o suco do limão, aos poucos. Ele vai ficar bem consistente, leve à geladeira.",
       "time": 10,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         " 1 lata de leite condensado",
         "1 lata de creme de leite",
@@ -616,7 +616,7 @@
       "serves": 20,
       "method": "Em um liquidificador, bata o leite, a farinha, o ovo e o queijo ralado até formar uma mistura homogênea. Aqueça uma frigideira pequena em fogo baixo. Se a frigideira não for antiaderente, coloque umas gotinhas de óleo e espalhe. Coloque uma concha pequena da massa na frigideira não muito quente. Espalhe até pegar todo fundo e formar uma camada fina de massa. Vire a panqueca assim que ela desgrudar da frigideira. Cozinhe rapidamente o outro lado. Coloque as massas prontas em um prato limpo até terminar de fazer todas.Cubra com molho de tomate e salpique queijo ralado. Asse em forno a 180 graus celsius por 10 minutos.",
       "time": 30,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "Três quartos de xícara de açúcar",
         "Meia xícara de água quente",
@@ -698,7 +698,7 @@
       "serves": 1,
       "method": "Misture 3 colheres de farinha de aveia com 1 colher de fermento em pó e 1 colher de iogurte natural junto da banana amassada e um ovo, leve tudo ao microondas por 2 minutos e por fim adicione açucar ou adocante se achar necessário",
       "time": 15,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "150g Aveia",
         "2 Bananas",
@@ -721,7 +721,7 @@
       "serves": 20,
       "method": "Unte uma forma com óleo e povilhe com a farinha de trigo, em uma tigela misture a farinha, o fermento, o sal e reserve, na sequência bata no liquidificador a cenoura adicione o óleo o açucar e os ovos e bata até obter um creme liso, aos poucos adicione os ingredientes secos até ficar uma massa homogênea, passe a masssa para a assadeira e asse por 30 minutos",
       "time": 45,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "1 Cenoura",
         "2 Ovos",
@@ -794,7 +794,7 @@
       "serves": "5",
       "method": "Bata o creme de leite, sem o soro, em uma batedeira ou liquidificador, lembrando que fica uma mistura cremosa e grosa no final, até que vire um líquido cremoso. Adicione toda a lata de leite condensado ao creme de leite e misture até ficar homogêneo. Adicione todo conteúdo do pacote do suco e misture até ficar com a cor do suco. Você vai ver que vai ficar bem grosso. Então coloque em um pote, e congele",
       "time": 20,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "1 lata de creme de leite",
         "1 lata de leite condensado",
@@ -809,7 +809,7 @@
       "serves": 20,
       "method": "Misture a Nutella, o ovo e a farinha até obter uma mistura homogênea.Faça disquinhos com a massa. Caso opte por rechear, deixe a Nutella na geladeira de antemão. Após abrir os disquinhos, coloque um pouco da Nutella no centro e cubra com outro disquinho. Esta receita rende cerca de 10 cookies recheados grandes, ou cerca de 20 sem recheio. Cubra uma forma com pape manteiga e distribua os cookies. Leve ao forno baixo (100° C) por cerca de 10 minutos.",
       "time": 20,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "1 xícara de nutella",
         "1 xícara de farinha",
@@ -825,7 +825,7 @@
       "serves": 1,
       "method": "Bata bem todos os ingredientes. Despeje a mistura na forma untada com a calda e coloque a forma em banho-maria para assar no forno. Deixe em temperatura média de 180º C a 240º C, até que a espuma da mistura esteja bem dourada. Espere esfriar e desgrude das laterais da forma (também ao redor do furo da forma) Com o auxilio de uma faca desenforme.",
       "time": 60,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "1 lata de leite condensado",
         "1 lata de leite (mesma medida do leite condensado)",
@@ -840,7 +840,7 @@
       "serves": 60,
       "method": "Bata o toddy e o creme de leite em um liquidificador por 5 minutos.Coloque uma fina camada do creme no fundo de um refratário, cubra com o biscoito, coloque de novo creme e assim por diante. Deixe gelar por 1 hora no congelador ou 4 horas na geladeira.",
       "time": 60,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "400 g de chocolate em pó",
         "4 caixas de creme de leite",
@@ -882,7 +882,7 @@
       "serves": 1,
       "method": "Em uma caneca, misture todos os ingredientes e leve ao micro-ondas, em potência média por 3 minutos. Polvilhe NINHO e sirva a seguir.",
       "time": 10,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "2 colheres (sopa) de Leite em Pó NINHO",
         "2 colheres (sopa) de farinha de trigo",
@@ -968,7 +968,7 @@
       "serves": 1,
       "method": "Em uma panela, dissolva o amido de milho na água e leve ao fogo, mexendo sempre, até engrossar. Desligue o fogo, adicione o NUTREN Kids e as raspas de limão e misture.",
       "time": 15,
-      "type": "",
+      "type": "candy",
       "ingredients": [
         "meia colher (chá) de amido de milho",
         "meia xícara (chá) de água",
