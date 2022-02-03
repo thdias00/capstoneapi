@@ -2,7 +2,7 @@
   "users": [
     {
       "email": "kenzinho@mail.com",
-      "password": "123456",
+      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
       "name": "Kenzinho",
       "age": 38,
       "id": 1
@@ -1080,6 +1080,96 @@
         "abobrinha"
       ],
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL6BfnmAsyBSjIC19rbe3bAHU-hU2WORixxA&usqp=CAU"
+    },
+    {
+      "id": 46,
+      "title": "Torta de biscoito",
+      "serves": 5,
+      "method": "Adicione o leite condensado, o creme de leite, esprema o limão num recipiente e bata até ficar uma mistura homogênea.Quebre um dos os biscoitos por fora do pacote e despeje o biscoito para mexer. Após misturar, molhe os biscoitos do outro pacote no leite, crie duas camadas num recipiente e armazene na geladeira.",
+      "time": 30,
+      "type": "Sobremesa",
+      "ingredients": [
+        "1 caixinha de leite condensado",
+        "1 caixinha de creme de leite",
+        "50 ml de limão",
+        "2 pacotes de biscoito"
+      ],
+      "searchIngredients": [
+        "leite condensado",
+        "creme de leite",
+        "limão",
+        "biscoito"
+      ],
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.oetker.com.br%2FRecipe%2FRecipes%2Foetker.com.br%2Fbr-pt%2Fdessert%2Fimage-thumb__40379__RecipeDetailsLightBox%2Ftorta-de-sorvete-e-biscoito.jpg&f=1&nofb=1"
+    },
+    {
+      "id": 47,
+      "title": "Doce de leite",
+      "serves": 5,
+      "method": "Em uma panela, adicione a manteiga e açúcar e misture, depois, leite em pó. Adicione o leite e ligue o forno, mexendo até adquirir uma consistência cremosa. Apague o forno e unte uma travessa com manteiga/margarina. Use uma metade da porção para ir à travessa e outra metade para misturar com chocolate até dissolver e acrescentar mais leite. Ponha acima da outra metade do doce e deixe na geladeira até endurecer.",
+      "time": 45,
+      "type": "Sobremesa",
+      "ingredients": [
+        "1 xicara de açúcar",
+        "2 colheres de manteiga",
+        "200g de leite em pó",
+        "Meia xícara de leite",
+        "50g de chocolate (fica a gosto)"
+      ],
+      "searchIngredients": ["açúcar", "manteiga", "leite", "chocolate"],
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmeucadernodereceitas.xyz%2Fwp-content%2Fuploads%2F2018%2F06%2FDoce-de-leite-de-corte.jpg&f=1&nofb=1"
+    },
+    {
+      "id": 48,
+      "title": "Doce de banana",
+      "serves": 5,
+      "method": "Amasse a banana ou bata no liquidificador. Adicione uma xícara de açucar até dissolver e transfira para uma panela em fogo baixo. Mexa bem até começar a grudar na panela, então adicione água e meio limão (opcional). Quando estiver caramelado, adicione mais 30mL de água e mexa até o doce ficar juntinho. Deixe esfriar fora da geladeira e faça cortes como quiser. Passe no açúcar a gosto (opcional).",
+      "time": 30,
+      "type": "Sobremesa",
+      "ingredients": [
+        "5 unidades de banana",
+        "1 xícara de açúcar",
+        "Limão a gosto"
+      ],
+      "searchIngredients": ["bananas", "açúcar"],
+      "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-ItdOXObyL5w%2FTnzph7i4wcI%2FAAAAAAAAOEk%2FJATPoL4MYGE%2Fs1600%2FDSC_0135.JPG&f=1&nofb=1"
+    },
+    {
+      "id": 49,
+      "title": "Mingau de milho",
+      "serves": 1,
+      "method": "Corte todo o milho da espiga, passe para o liquidificador, adicione o leite e bata. Peneire e coe esta mistura numa panela, adicione o açúcar e misture. Coloque em fogo baixo e mexa até engrossar. Passe para o recipiente de preferência e bora comer!",
+      "time": 30,
+      "type": "Sobremesa",
+      "ingredients": [
+        "7 espigas de milho verde",
+        "1 litro de leite",
+        "2 xícaras de açúcar (400ml)",
+        "Canela a gosto "
+      ],
+      "searchIngredients": ["milho", "leite", "açúcar"],
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-Z9A6LX_uv04%2FX_8_DrieBeI%2FAAAAAAAAMO0%2FyR7oha0N8CsgaN4QNpvuKgV3kBQBlEWQQCLcBGAsYHQ%2Fs1366%2Fcuraudemilho.jpg&f=1&nofb=1"
+    },
+    {
+      "id": 50,
+      "title": "Creme de limão com biscoito.",
+      "serves": 5,
+      "method": "Adicione o creme de leite, leite condensado, o suco de limão e misture bem até ficar cremoso. Acrescente este creme em recipientes de preferência e quebre os biscoitos por cima. Acrescente mais uma camada de creme e biscoitos. Deixe gelar e já pode comer!",
+      "time": 30,
+      "type": "Sobremesa",
+      "ingredients": [
+        "400g de creme de leite",
+        "395g de leite condensado",
+        "50 mL de suco de limão",
+        "Biscoito da sua preferência"
+      ],
+      "searchIngredients": [
+        "creme de leite",
+        "leite condensado",
+        "limão",
+        "biscoito"
+      ],
+      "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmeucadernodereceitas.xyz%2Fwp-content%2Fuploads%2F2020%2F06%2FMousse-de-Biscoito-Oreo-no-Pote.png&f=1&nofb=1"
     }
   ]
 }
