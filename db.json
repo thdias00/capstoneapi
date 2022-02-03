@@ -1087,7 +1087,7 @@
       "serves": 5,
       "method": "Adicione o leite condensado, o creme de leite, esprema o limão num recipiente e bata até ficar uma mistura homogênea.Quebre um dos os biscoitos por fora do pacote e despeje o biscoito para mexer. Após misturar, molhe os biscoitos do outro pacote no leite, crie duas camadas num recipiente e armazene na geladeira.",
       "time": 30,
-      "type": "Sobremesa",
+      "type": "candy",
       "ingredients": [
         "1 caixinha de leite condensado",
         "1 caixinha de creme de leite",
@@ -1108,7 +1108,7 @@
       "serves": 5,
       "method": "Em uma panela, adicione a manteiga e açúcar e misture, depois, leite em pó. Adicione o leite e ligue o forno, mexendo até adquirir uma consistência cremosa. Apague o forno e unte uma travessa com manteiga/margarina. Use uma metade da porção para ir à travessa e outra metade para misturar com chocolate até dissolver e acrescentar mais leite. Ponha acima da outra metade do doce e deixe na geladeira até endurecer.",
       "time": 45,
-      "type": "Sobremesa",
+      "type": "candy",
       "ingredients": [
         "1 xicara de açúcar",
         "2 colheres de manteiga",
@@ -1125,7 +1125,7 @@
       "serves": 5,
       "method": "Amasse a banana ou bata no liquidificador. Adicione uma xícara de açucar até dissolver e transfira para uma panela em fogo baixo. Mexa bem até começar a grudar na panela, então adicione água e meio limão (opcional). Quando estiver caramelado, adicione mais 30mL de água e mexa até o doce ficar juntinho. Deixe esfriar fora da geladeira e faça cortes como quiser. Passe no açúcar a gosto (opcional).",
       "time": 30,
-      "type": "Sobremesa",
+      "type": "candy",
       "ingredients": [
         "5 unidades de banana",
         "1 xícara de açúcar",
@@ -1140,7 +1140,7 @@
       "serves": 1,
       "method": "Corte todo o milho da espiga, passe para o liquidificador, adicione o leite e bata. Peneire e coe esta mistura numa panela, adicione o açúcar e misture. Coloque em fogo baixo e mexa até engrossar. Passe para o recipiente de preferência e bora comer!",
       "time": 30,
-      "type": "Sobremesa",
+      "type": "candy",
       "ingredients": [
         "7 espigas de milho verde",
         "1 litro de leite",
@@ -1156,7 +1156,7 @@
       "serves": 5,
       "method": "Adicione o creme de leite, leite condensado, o suco de limão e misture bem até ficar cremoso. Acrescente este creme em recipientes de preferência e quebre os biscoitos por cima. Acrescente mais uma camada de creme e biscoitos. Deixe gelar e já pode comer!",
       "time": 30,
-      "type": "Sobremesa",
+      "type": "candy",
       "ingredients": [
         "400g de creme de leite",
         "395g de leite condensado",
