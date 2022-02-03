@@ -8,7 +8,35 @@
       "id": 1
     }
   ],
-  "publications": [],
+  "publications": [
+    {
+      "category": "entradas",
+      "description": "Hoje eu fiz uma entrada com atum, salada verde e tomate",
+      "icon": "https://i.ibb.co/Y01MCCL/chef-icon-png-19.png",
+      "userId": 2,
+      "username": "Thiago",
+      "date": "03/02/2022",
+      "id": 1
+    },
+    {
+      "category": "prato-principal",
+      "description": "Estou a procura de receitas de prato principal para um jantar especial amanhã",
+      "icon": "https://i.ibb.co/tZjQrck/FIN-RECIPES-5-1.png",
+      "userId": 2,
+      "username": "Otávio",
+      "date": "03/02/2022",
+      "id": 2
+    },
+    {
+      "category": "sobremesa",
+      "description": "Dica de sobremesa: cookies com nutella integral",
+      "icon": "https://i.ibb.co/hcqD26T/FIN-RECIPES-1.jpg",
+      "userId": 2,
+      "username": "Aine",
+      "date": "03/02/2022",
+      "id": 3
+    }
+  ],
   "icons": [
     {
       "id": 1,
